@@ -1,0 +1,54 @@
+.modal{
+  position: fixed;
+  inset: 0px;
+  background: linear-gradient(90deg, rgba(7,44,77,0) 0%, rgba(51,51,51,0.3897934173669467) 0%);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalShare{
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.button{
+  background-color: #8C15E4;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-color: #8C15E4;
+
+}
+.buttonx{
+  border-radius: 20px;
+  border-color: white;
+  border: 0;
+  background-color: white;
+  color: #8C15E4;
+}
+
+@media (max-width: 700px) {
+
+  .modal{
+    flex-direction: column-reverse;
+  }
+  .modalShare{
+   
+    flex-direction: column;
+    
+  }
+  .button{
+    border-radius: 10px;
+    
+    height: 30px;
+  }
+}

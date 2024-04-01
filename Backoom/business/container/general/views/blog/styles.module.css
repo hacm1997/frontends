@@ -1,0 +1,16 @@
+.cardGeneral{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 80px 40px;
+    margin-top: -160px;
+
+}
+.apoyoGrafico img {
+    max-width: 100%;
+    width: 100%;
+}
+

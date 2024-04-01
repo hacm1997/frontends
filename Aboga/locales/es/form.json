@@ -1,0 +1,54 @@
+{
+  "form": {
+    "title": "Contác",
+    "titleColor": "tanos",
+
+    "description": "Somos el equipo de personas encargadas de asesorar jurídica e integralmente a usted y/o a su empresa  ¡Contáctenos! "
+  },
+  "SP": [
+    {
+      "value": "Derecho de familia"
+    },
+    {
+      "value": "Propiedad horizontal"
+    },
+    {
+      "value": "Derecho laboral"
+    },
+    {
+      "value": "Derecho penal"
+    },
+    {
+      "value": "Derecho constitucional"
+    },
+    {
+      "value": "Derecho del consumidor"
+    },
+    {
+      "value": "Derecho civil"
+    },
+    {
+      "value": "Jurisdicción coactiva"
+    }
+  ],
+  "SB": [
+    {
+      "value": "Derecho comercial"
+    },
+    {
+      "value": "Derecho laboral"
+    },
+    {
+      "value": "Derecho tributario"
+    },
+    {
+      "value": "Derecho civil"
+    },
+    {
+      "value": "Derecho del consumidor y competencia desleal"
+    },
+    {
+      "value": "Propiedad horizontal"
+    }
+  ]
+}

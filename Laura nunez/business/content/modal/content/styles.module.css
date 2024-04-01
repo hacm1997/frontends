@@ -1,0 +1,99 @@
+.modal_content{
+    background-color: #FFFFFF !important;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px -1px 17px -3px rgba(255,0,0,1);
+    -moz-box-shadow: 0px -1px 17px -3px rgba(255,0,0,1);
+    box-shadow: 0px -1px 17px -3px rgba(255,0,0,1);
+}
+.modal{
+    background-color: transparent;
+    border: 0px;
+}
+
+.close_modal{
+    display: flex;
+    justify-content: right;
+    font-size: 28px;
+    color: #FF4632;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+.back_icon{
+    margin-top: 0px;
+    margin-left: 5px;
+    color: #FF4632;
+    font-size: 28px;
+}
+
+.content_options{
+    margin-top: -10px;
+}
+
+.btn_continue div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn_continue div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn_continue button{
+    background-color: #FFFFFF;
+    border: 1px solid #FF4632;
+    font-size: 14px;
+    font-weight: bold;
+    height: 38px;
+    width: 130px;
+    color: #000000;
+    border-radius: 20px;
+    transition: 1s;
+}
+.btn_continue button:hover{
+    background-color: #FF4632;
+    border-color: red;
+    color: #FFFFFF;
+    transition: 1s;
+}
+.btn_continue p{
+    padding-top: 10px;
+    height: 40px;
+}
+
+.btn_wsp div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn_wsp div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn_wsp{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.btn_wsp p{
+    height: 40px;
+}
+
+.btn_wsp button{
+    background-color: #FFFFFF;
+    border: 1px solid #FF4632;
+    font-size: 14px;
+    font-weight: bold;
+    height: 38px;
+    width: 130px;
+    color: #000000;
+    border-radius: 20px;
+    transition: 1s;
+}
+.btn_wsp button:hover{
+    background-color: #FF4632;
+    color: red;
+    color: #FFFFFF;
+    transition: 1s;
+}

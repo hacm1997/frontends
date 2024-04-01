@@ -1,0 +1,191 @@
+{
+  "header": [
+    {
+      "content": {
+        "titlespan": "Somos expertos en",
+        "titleh1": "Tornillería",
+        "contentp": "Contamos con más de 10 años de experiencia en la venta y suministro de tornillos y accesorios para todo tipo de aplicaciones. Contamos con un alto stock para atender tus necesidades.",
+        "avideo": "Ver video"
+      }
+    },
+    {
+      "content": {
+        "titlespan": "Somos expertos en",
+        "titleh1": "Tuercas",
+        "contentp": "Contamos con más de 10 años de experiencia en suministro de tornillos y accesorios para todo tipo de aplicaciones. Contamos con un alto stock para atender tus necesidades.",
+        "avideo": "Ver video"
+      }
+    }
+  ],
+  "products": {
+    "title": "Nuestros productos",
+    "items": [
+      {
+        "name": "Abrazaderas",
+        "description": "",
+        "img": "/images/productos/cateogria-abrazadera.png",
+        "alt":"categoria-abrazaderas",
+        "urlRedirect": "/productos/tipo?tipe=abrazaderas"
+      },
+      {
+        "name": "Arandelas",
+        "description": "Sujeta un tornillo o una tuerca",
+        "img": "/images/productos/categoria-arandela.png",
+        "alt":"categoria-arandela",
+        "urlRedirect": "/productos/tipo?tipe=arandelas"
+      },
+      {
+        "name": "Clavos",
+        "description": "",
+        "img": "/images/productos/categoria-clavo.png",
+        "alt":"categoria-clavos",
+        "urlRedirect": "/productos/tipo?tipe=clavos"
+      },
+      {
+        "name": "Tornillos",
+        "description": "Une piezas de materiales como el metal, la madera o el plástico.",
+        "img": "/images/productos/categoria-tornillos.png",
+        "alt":"categoria-tornillos",
+        "urlRedirect": "/productos/tipo?tipe=tornillos"
+      },
+      {
+        "name": "Tuercas",
+        "description": "Fija junto con un tornillo para unir piezas de materiales.",
+        "img": "/images/productos/categoria-tuercas.png",
+        "alt":"categoria-tuercas",
+        "urlRedirect": "/productos/tipo?tipe=tuercas"
+      },
+      {
+        "name": "Herramienta manual",
+        "description": "",
+        "img": "/images/productos/categoria-manual.png",
+        "alt":"categoria-herramienta-manual",
+        "urlRedirect": "/productos/tipo?tipe=manual"
+      },
+      {
+        "name": "Tornilleria",
+        "description": "",
+        "img": "/images/productos/categoria-tornilleria.png",
+        "alt":"categoria-tornilleria",
+        "urlRedirect": "/productos/tipo?tipe=tornilleria"
+      },
+      {
+        "name": "Anclajes",
+        "description": "Fija piezas de materiales como el metal, la madera o el plástico a una superficie.",
+        "img": "/images/productos/categoria-anclajes.png",
+        "alt":"categoria-anclajes",
+        "urlRedirect": "/productos/tipo?tipe=anclajes"
+      },
+      {
+        "name": "Empaques metálicos",
+        "description": "",
+        "img": "/images/productos/categoria-metalicos.png",
+        "alt":"categoria-empaques-metalicos",
+        "urlRedirect": "/productos/tipo?tipe=metalicos"
+      },
+      {
+        "name": "Guasas",
+        "description": "",
+        "img": "/images/productos/tornilleria/Guasa de presión.png",
+        "alt":"guasas de presión",
+        "urlRedirect": "/productos/tipo?tipe=guasas"
+      }
+    ],
+    "toolsBanner": {
+      "bannerTitle": "Herramientas y seguridad industrial",
+      "imgUrl": "/images/productos/herramienta-apoyo.png",
+      "imgAlt": "muestra-inventario-herramientas-backoom"
+    }
+  },
+  "clients": {
+    "clientTitle": "Clientes satisfechos",
+    "clientImg": [
+      {
+        "altImg": "Acertek",
+        "urlImg": "/images/cliente/Acertek.jpg"
+      },
+      {
+        "altImg": "Ajover",
+        "urlImg": "/images/cliente/Ajover.jpg"
+      },
+      {
+        "altImg": "Astinaves",
+        "urlImg": "/images/cliente/Astinaves.jpg"
+      },
+      {
+        "altImg": "Cotecmar",
+        "urlImg": "/images/cliente/Cotecmar.jpg"
+      },
+      {
+        "altImg": "Deliverance",
+        "urlImg": "/images/cliente/Deliverance.jpg"
+      },
+      {
+        "altImg": "Dimecar",
+        "urlImg": "/images/cliente/Dimecar.jpg"
+      },
+      {
+        "altImg": "Electricos-de-la-costa",
+        "urlImg": "/images/cliente/Electricos-de-la-costa.jpg"
+      },
+      {
+        "altImg": "Etec",
+        "urlImg": "/images/cliente/Etec.jpg"
+      },
+      {
+        "altImg": "Industry-All",
+        "urlImg": "/images/cliente/Industry-All.jpg"
+      },
+      {
+        "altImg": "Insurcol",
+        "urlImg": "/images/cliente/Insurcol.jpg"
+      },
+      {
+        "altImg": "Lamitech",
+        "urlImg": "/images/cliente/Lamitech.jpg"
+      },
+      {
+        "altImg": "Nova-suin",
+        "urlImg": "/images/cliente/Nova-suin.jpg"
+      },
+      {
+        "altImg": "Tecnicas-reunidas",
+        "urlImg": "/images/cliente/Tecnicas-reunidas.jpg"
+      },
+      {
+        "altImg": "Transportes-CI",
+        "urlImg": "/images/cliente/Transportes-CI.jpg"
+      },
+      {
+        "altImg": "Agrecar",
+        "urlImg": "/images/cliente/Agrecar.jpg"
+      },
+      {
+        "altImg": "Aguas-de-cartagena",
+        "urlImg": "/images/cliente/Aguas-de-cartagena.jpg"
+      },
+      {
+        "altImg": "Sicmeci",
+        "urlImg": "/images/cliente/Sicmeci.jpg"
+      }
+    ]
+  },
+  "contacto": {
+    "containterTitle":"equipo-backoom",
+    "contactTitle": "Cotiza ahora",
+    "contactContent": "Uno de nuestros asesores se pondra en contacto contigo",
+    "inputPerson": "Persona natural",
+    "inputName": "Nombre y apellido",
+    "contactIdType": {
+      "cedulaType": "CC",
+      "nitType": "NIT"
+    },
+    "idInputNumber":"Numero de documento",
+    "inputEmail": "E-mail",
+    "inputTelCel": "TelCel",
+    "contactBtn": {
+      "btnTitle": "Cotizar productos",
+      "btnURL": "https://api.whatsapp.com/send?phone=573156059925&text=%C2%A1Hola%20Backoom!%20%F0%9F%92%9B%F0%9F%94%A9%20Estoy%20interesad@%20en%20cotizar%20con%20ustedes"
+    }
+  }
+}

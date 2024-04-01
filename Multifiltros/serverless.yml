@@ -1,0 +1,4 @@
+multifiltros.kru360.com:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    domain:  [ "multifiltros.kru360.com" ]

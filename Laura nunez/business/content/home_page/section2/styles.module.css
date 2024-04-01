@@ -1,0 +1,208 @@
+.background{
+    background-image: url("/images/content/home/second_component/background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.section2{
+    background-image: url("/images/content/home/second_component/banner2.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.love_club_img{
+    position: relative;
+    margin-top: 200px;
+}
+
+
+.row2{
+    padding-left: 20px;
+    margin-top: 80px;
+}
+
+.years_plus{
+    font-size: 130px;
+    color: white;
+}
+
+.years_decrip{
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}
+
+.description{
+    width: 300px;
+    font-size: 13px;
+    color: white;
+    text-align: justify;
+}
+
+.btn_ag{
+    font-size: 10px;
+    font-weight: bold;
+    height: 30px;
+    width: 120px;
+    border: 1px solid;
+    border-color: #FFFF;
+    border-radius: 30px;
+    background-size: 100% auto;
+    background-color: transparent;
+    color: #FFFF;
+    transition: 1s ease-in-out;
+}
+
+.btn_ag:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #CEF564;
+    color: black;
+    border-color: #FFFF;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1050px) {
+    .love_club_img{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .row2{
+        margin-top: 20px;
+    }
+
+    .years_plus{
+        display: flex;
+        justify-content: center;
+        font-size: 130px;
+        color: white;
+    }
+
+    .years_decrip{
+        margin-top: -40px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .description{
+        font-size: 10px;
+        color: white;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+    .descriptionP{
+        display: flex;
+        justify-content: center;
+    }
+    .btn_ag_display{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn_ag{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    .love_club_img{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .row2{
+        margin-top: 20px;
+    }
+
+    .years_plus{
+        display: flex;
+        justify-content: center;
+        font-size: 130px;
+        color: white;
+    }
+
+    .years_decrip{
+        margin-top: -40px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .description{
+        font-size: 10px;
+        color: white;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+    .descriptionP{
+        display: flex;
+        justify-content: center;
+    }
+    .btn_ag_display{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn_ag{
+        margin-bottom: 20px;
+    }
+
+    .section2{
+        height: 350px;
+        background-position: 0% 15%;
+    }
+}
+
+@media (max-width: 500px) {
+    .love_club_img{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .row2{
+        margin-top: 20px;
+    }
+
+    .years_plus{
+        display: flex;
+        justify-content: center;
+        font-size: 130px;
+        color: white;
+    }
+
+    .years_decrip{
+        margin-top: -40px;
+        color: white;
+        font-size: 20px;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+
+    .description{
+        font-size: 10px;
+        color: white;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+    .descriptionP{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn_ag{
+        margin-bottom: 20px;
+    }
+}
+
+

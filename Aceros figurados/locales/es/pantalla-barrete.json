@@ -1,0 +1,124 @@
+{
+  "Header": [
+    {
+      "title": "Pantallas",
+      "content": "Las pantallas son elementos estructurales construidos en concreto armado destinados a la contencion del terreno contra edificaciones u obras civiles aledañas",
+      "background": "/images/barrete/Cimentación-de-pisos.jpg"
+    },
+    {
+      "title": "Barretes",
+      "content": "Los barretes son elementos estructurales construidos en concreto armado, de seccion transversal rectangular y longitud variable, destinados a la cimentacion como soporte de altas cargas estructurales.",
+      "background": "/images/barrete/Cimentación-de-pisos.jpg"
+    }
+  ],
+  "latestTechnology": {
+    "title": "Maquinaria de última",
+    "titleSpan": "tecnología",
+    "content": "Nuestras máquinas nos ayudan con la serie de pernos de acero para transferir el peso de la estructura al terreno de forma que este no se vea afectado por el peso.",
+    "button": "#"
+  },
+  "imageSecond": "images/barrete/Pantallas-y-barretes2.png",
+  "machines": {
+    "list": [
+      {
+        "machine": "images/barrete/maquina6.jpg",
+        "alt": "Maquina de pantalla y barrete",
+        "title": "pantalla y barrete",
+        "content": ""
+      },
+      {
+        "machine": "images/barrete/maquina5.jpg",
+        "alt": "Maquina de pantalla y barrete",
+        "title": "pantalla y barrete",
+        "content": ""
+      },
+      {
+        "machine": "images/barrete/maquina10.jpg",
+        "alt": "Maquina de pantalla y barrete",
+        "title": "pantalla y barrete",
+        "content": ""
+      }
+    ]
+  },
+  "contact": {
+    "title": "¡Programa tu cita ahora!",
+    "content": "Déjanos tus datos y nos pondremos en contacto contigo",
+    "item": [
+      {
+        "placeholder": "Nombre completo",
+        "name": "name",
+        "type": "text"
+      },
+      {
+        "placeholder": "Tel/Cel",
+        "name": "phone",
+        "type": "number"
+      },
+      {
+        "placeholder": "Email",
+        "name": "email",
+        "type": "email"
+      }
+    ]
+  },
+
+  "allies": {
+    "title": "Empresas que han confiado en nosotros",
+    "data": [
+      {
+        "image": "/images/logo-empresa/civilia-sa.JPG",
+        "alt": "Civilia-SA"
+      },
+      {
+        "image": "/images/logo-empresa/construcciones-isarco-sas.JPG",
+        "alt": "Construcciones-ISARCO-SAS"
+      },
+      {
+        "image": "/images/logo-empresa/constructura-ossa-lopez.JPG",
+        "alt": "Constructura-Ossa-Lopez"
+      },
+      {
+        "image": "/images/logo-empresa/gerencia-construccion-arquitectura-sa.JPG",
+        "alt": "Gerencia-Construccion-Arquitectura-SA"
+      },
+      {
+        "image": "/images/logo-empresa/ochoa-albornoz.JPG",
+        "alt": "Ochoa-Albornoz"
+      },
+      {
+        "image": "/images/logo-empresa/promotora-convivienda.jpg",
+        "alt": "Promotora-Convivienda"
+      }
+    ]
+  },
+  "customizeProcess": {
+    "title": "Personaliza tu proceso",
+    "content": "Agenda con nosotros la estructuración de unos proyectos confiables.",
+    "steps": [
+      {
+        "step": "Contáctanos",
+        "stepIcon": "/images/steps/Habla-con-nosotros.png"
+      },
+      {
+        "step": "Cuéntanos los rasgos del proyecto y la disponibilidad",
+        "stepIcon": "/images/steps/Cuéntanos-los-rasgos-del-proyecto.png"
+      },
+      {
+        "step": "Envíanos un email con las cantidades de obra, planos y estudio de suelos",
+        "stepIcon": "/images/steps/Envíanos-un-email-con-las-cantidades.png"
+      },
+      {
+        "step": "Te cotizamos en menos de 3 días hábiles",
+        "stepIcon": "/images/steps/Te-cotizamos-en-menos-de-3-días-hábiles.png"
+      },
+      {
+        "step": "Realiza tu pago",
+        "stepIcon": "/images/steps/Realiza-tu-pago.png"
+      },
+      {
+        "step": "Trabajemos juntos",
+        "stepIcon": "/images/steps/Trabajemos-juntos.png"
+      }
+    ]
+  }
+}

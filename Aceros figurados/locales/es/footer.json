@@ -1,0 +1,27 @@
+{
+  "about": {
+    "title": "Sobre nosotros",
+    "content": "Nos caracterizamos por la experiencia, eficiencia y seguridad en obras de construcciones con enfoque en la cimentación. Te brindamos soluciones oportunas en cada proceso. Cotiza con nosotros tus obras, pantallas, pilotaje y barretes."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "direction": "Cra. 8 # 64 - 61, Bogotá",
+    "phone": "3146385078"
+  },
+  "schedule": {
+    "title": "Lunes a Viernes",
+    "content": "8:00 a.m. a 5:00 p.m."
+  },
+  "emails": {
+    "email": "gestionacerosfigurados@yahoo.com"
+  },
+    "social": {
+      "item": [
+        {
+          "name": "Linkedin",
+          "icon": "bx bxl-linkedin",
+          "link": "https://www.linkedin.com/company/acerosfiguradossas/"
+        }
+      ]
+    }
+}

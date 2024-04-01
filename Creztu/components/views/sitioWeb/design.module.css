@@ -1,0 +1,7 @@
+.title {
+    background: linear-gradient(104deg, #FD8E56 40%, #6F00F9 55.09%, #FD8E56 60.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: Poppins, sans-serif;
+}

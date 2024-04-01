@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Coco Sharp';
+  src: url('/fonts/CocoSharp/Coco-Sharp-Heavy-trial.ttf');
+}
+@font-face {
+  font-family: 'Coco Sharp 2';
+  src: url('/fonts/CocoSharp/Coco-Sharp-Extrabold-trial.ttf');
+}
+@font-face {
+  font-family: 'Coco Sharp 3';
+  src: url('/fonts/CocoSharp/Coco-Sharp-Regular-trial.ttf');
+}
+
+html,
+
+body {
+  padding: 0;
+  margin: 0;
+ 
+}
+
+h1, h2, h3, li {
+  font-family: 'Coco Sharp';
+}
+h4 {
+  font-family: 'Coco Sharp 3'
+}
+p {
+  font-family: 'Coco Sharp 2';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+  /* border: 2px solid red; */
+}
+
+.swiper-button-next{
+  color: #4900FC;
+  background: transparent;
+  border: 2px solid;
+  padding: 40px;
+  position: absolute !important;
+  margin-top: 30px !important;
+} 
+
+.swiper-button-prev{
+  display: none !important;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  width:66px !important;
+  height: 12px !important;
+  display: inline-block;
+  border-radius: 0% !important;
+  position:  relative !important;
+  left: 200px;
+  bottom: 70px;
+  background: var(--swiper-pagination-bullet-inactive-color, #4900FC);
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}

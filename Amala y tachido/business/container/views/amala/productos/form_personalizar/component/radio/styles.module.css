@@ -1,0 +1,50 @@
+.radio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio input[type="radio"] {
+  /* Cambiar el color del radio */
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #282828;
+  border-radius: 100%;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+}
+
+.radio input[type="radio"]:checked {
+  /* Cambiar el color del radio seleccionado */
+  border-color: #282828;
+  background-color: #282828;
+}
+
+.radio label {
+  font-size: 16px;
+  color: #282828;
+  font-family: '' Poppins', sans-serif Regular';
+  margin-left: 10px;
+}
+
+.radio input[type="checkbox"] {
+  /* Cambiar el color del radio */
+
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #282828;
+  border-radius: 100%;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.radio input[type="checkbox"]:checked {
+  /* Cambiar el color del radio seleccionado */
+  border-color: #282828;
+  background-color: #282828;
+}

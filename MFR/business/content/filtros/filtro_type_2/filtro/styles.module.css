@@ -1,0 +1,121 @@
+.general {
+    width: 290px;
+    height: 540px;
+    background-color: #F9F9F9;
+    position: sticky;
+    top: 0;
+    padding: 30px;
+}
+
+.content_1 h2 {
+    color: #100146;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content_1 p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.content_range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_range p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.valor_filtro {
+    display: flex;
+}
+
+.valor_filtro div {
+    width: 100%;
+}
+
+.valor_filtro input{
+    height: 30px;
+    width: 85px;
+    border-color: #8C15E4;
+}
+
+.valor_filtro img{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+   
+}
+.valor_filtro h4{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.valor_filtro p {
+    border: solid 1px #8C15E4;
+    height: 100%;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select{
+    padding-top: 20px;
+    
+}
+
+.select select{
+    background-color: #f2f4fe;
+    border: none;
+    width: 180px;
+    
+}
+
+.select h5 {
+    color: #100146;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    
+}
+.select a {
+   background-color: #8C15E4;
+   border-radius: 20px;
+   padding: 5px;
+   color: #f2f4fe !important;
+   font-size: large !important;
+
+}
+.content_2 {
+    margin-top: 20px;
+}
+
+.content_2 h2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.content_2 p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.content_3 {
+    margin-top: 20px;
+}
+
+.content_3 h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .general {
+       
+    }
+}
+

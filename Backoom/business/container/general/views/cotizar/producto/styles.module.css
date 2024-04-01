@@ -1,0 +1,42 @@
+.content h3 {
+    color: #FBAF19;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.general_productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 100px;
+}
+
+
+@media (max-width: 1189px) {
+    .general_productos {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    .productos{
+        padding: 0 40px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .general_productos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .productos{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .general_productos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .productos{
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "defaultLocale": "es",
+  "locales": ["es"],
+  "pages": {
+    "*": ["footer", "header", "customize","pantalla-barrete"],
+    "/": ["home"],
+    "/pantalla-barrete": ["pantalla-barrete"],
+    "customize":["customize"]
+  }
+}

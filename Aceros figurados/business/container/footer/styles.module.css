@@ -1,0 +1,108 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100%;
+    padding: 40px 0 120px 0;
+}
+
+.general {
+    width: 1200px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    padding: 0 40px;
+}
+
+.general h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.general p {
+    font-size: 17px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.infoUbi {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.itenUbi {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.itenUbi i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f2ac38;
+    font-size: 30px;
+    color: #000000;
+    margin: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.itenUbi i:hover {
+    background-color: #000000;
+    color: #f2ac38;
+    border: 1px solid #f2ac38;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.social i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2ac38;
+    color: #000000;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.social i:hover {
+    background-color: #000000;
+    color: #f2ac38;
+    border: 2px solid #f2ac38;
+}
+
+@media (max-width: 1022px) {
+    .general {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content_1 {
+        width: 600px
+    }
+}
+
+
+@media (max-width: 767px) {
+    .general {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .content_1 {
+        width: 100%;
+    }
+}

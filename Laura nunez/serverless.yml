@@ -1,0 +1,4 @@
+lauranunez:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    domain: ["lauranunez.co"]

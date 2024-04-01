@@ -1,0 +1,1120 @@
+{
+  "general_button": "Agendar cita",
+  "our_experts": {
+    "title": "Nuestro",
+    "title_pt2": "experto",
+    "list": [
+      {
+        "id": 0,
+        "gender": "female",
+        "name": "Keiry Berdugo",
+        "photo": "/images/experts/keiry.webp",
+        "position": "Abogada",
+        "ability": "Investigadora Judicial y Criminalista.",
+        "description": "Emprendedora, profesional en Derecho con un enfoque en el ámbito comercial, empresarial y laboral.",
+        "exp_number": 6,
+        "exp_text": "Años de experiencia"
+      },
+      {
+        "id": 1,
+        "name": "Juan José Castillo R.",
+        "gender": "male",
+        "photo": "/images/experts/juan-jose.webp",
+        "position": "Abogado",
+        "ability": "Esp. en Derecho constitucional. Además, con énfasis en derecho penal y derecho de la competencia.",
+        "description": "Profesional especializado con enfoque en las áreas de derecho constitucional y penal, particularmente en el área de protección del consumidor, propiedad industrial y competencia desleal.",
+        "exp_number": 2,
+        "exp_text": "Años de experiencia"
+      },
+      {
+        "id": 2,
+        "gender": "male",
+        "name": "Osman E. Guzmán Medrano",
+        "photo": "/images/experts/osman.webp",
+        "position": "Abogado",
+        "ability": "Con un enfoque en las áreas de derecho civil, propiedad horizontal y trámites administrativos.",
+        "description": "Con 10 meses de experiencia en la rama judicial y 4 meses de experiencia en la casa del consumidor.",
+        "exp_number": "1⁺",
+        "exp_text": "Años de experiencia"
+      }
+      
+    ]
+  },
+  "general_services_title": "Nuestros servicios incluyen",
+  "form_general":{
+    "form_data": {
+      "title_span": "Llena este formulario",
+      "title": "y nos contactaremos contigo para resolver tus problemas.",
+      "dpto": "Departamento",
+      "city": "Ciudad",
+      "address": "Dirección",
+      "fullname": "Nombres y apellidos",
+      "phone": "Tel/Cel",
+      "email": "E-mail",
+      "type_service": "Tipo de servicio",
+      "service": "Servicio"
+    }
+  },
+  "personas": {
+    "jurisdiccion-coactiva": {
+      "title": "Jurisdicción coactiva",
+      "category": "['jurisdicción coactiva']",
+      "experts_id": "[2]",
+      "over_video":{
+        "video": "/videos/jurisdiccion/jurisdiccion.mp4",
+        "question1": "¡Libera tu historial! Trabajamos en la prescripción de multas de tránsito con más de 6 años de antigüedad.",
+        "description1": "Elimina multas de tráfico antiguas con nuestro servicio de prescripción. Revisamos cada caso para liberarte de obligaciones pasadas. ¡Contáctanos para un futuro sin preocupaciones legales!",
+        "img1": "/images/servicios/our-services/personas/jurisdiccion/multas-trafico.png",
+        "question2": "¡Protege tu propiedad! Trabajamos en la prescripción de impuestos prediales antiguos. Recupera tu tranquilidad financiera.",
+        "description2": "No pierdas tu propiedad, contamos con especialistas experimentados en la prescripción de impuestos antiguos. Consulta con nosotros y libérate de deudas del pasado, toma el control de tus finanzas hoy.",
+        "img2": "/images/servicios/our-services/personas/jurisdiccion/impuesto-predial.png",
+        "question3": "¿Recibiste una notificación de cobro por impuestos o multas?",
+        "description3": "Defensa experta contra cobro coactivo de multas e impuestos. Protegemos tus derechos, ¡contáctanos ahora!",
+        "img3": "/images/servicios/our-services/personas/jurisdiccion/cobro-impuestos.png"
+      },
+      "vulnerabilities": {
+        "title": "¡Protegemos tus derechos con firmeza ante el cobro de impuestos y multas!",
+        "subtitle": "Asesórate con nuestros expertos en Jurisdicción coactiva y recibe el acompañamiento que necesitas",
+        "description": "Somos abogados especializados en:",
+        "list": ["Acciones de tutles.", "Incidentes de desacato.", "Acciones de grupo y populares.", "Y más."]
+      },
+      "banner": {
+        "image": "/images/portadas-web/tramites-administrativos.png",
+        "title": "¡Prescribe tus impuestos y multas!, asesórate con nosotros y ahorra tiempo y dinero",
+        "description": "En ABOGA nos encargamos de realizar todo el proceso de prescripción de la acción de cobro de tus impuestos prediales, impuestos de Industria y Comercio, impuestos vehiculares e impuestos ante la DIAN y las multas de tránsito ante las Secretarías de Tránsito Municipales y Departamentales. ¿Quieres saber si cumples con los requisitos? Contáctanos y nosotros nos encargamos de tu caso."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en jurisdicción coactiva,",
+        "title_span": "está aquí para\nayudarte en cada paso\ndel camino.",
+        "title2": "Cobro excesivo de servicios públicos: Controbierta facturas injustas y",
+        "title2_span": "recupere su equilibrio financiero con nuestro recurso de rectificación."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/personas/tramites/tramite-1.png",
+          "title": "Presentación de excepciones y prescripción de acción de cobro en multas de tránsito.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/tramites/tramite-2.png",
+          "title": "Presentación de excepciones y prescripción de acción de cobro del Impuesto Predial Unificada - IPU.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/tramites/tax-car-blue.png",
+          "title": "Presentación de excepciones y prescripción de acción de cobro de los Impuestos de Vehículos.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/tramites/tramite-5.png",
+          "title": "Presentación de excepciones y prescripción de impuestos ante la DIAN.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/tramites/tax-public.png",
+          "title": "Presentación de excepciones y prescripción de impuesto de Industria y Comercio.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/tramites/tramite-7.png",
+          "title": "Presentación de excepciones y prescripción de impuestos vehiculares.",
+          "description": "",
+          "bg_color": "white"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Además de los servicios expresados,",
+        "title_span": "nos encargamos del caso puntual que necesite,",
+        "title_pt2": "contáctenos.",
+        "image": "/images/experts/osman.webp"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados especializados en jurisdicción coactiva",
+        "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "derecho-familiar": {
+      "title": "Derecho de familia",
+      "category": "['derecho de familia']",
+      "experts_id": "[3]",
+      "banner": {
+        "image": "/images/portadas-web/derecho-familia.png",
+        "title": "Somos tu equipo legal de confianza en casos de derecho de familia",
+        "description": "En nuestra oficina jurídica, ofrecemos servicios profesionales en derecho de familia, con el objetivo de ayudar a nuestros clientes a resolver asuntos legales de manera efectiva y satisfactoria en asuntos como el divorcio, la custodia y alimentación de los hijos, adopción, violencia doméstica, entre otros."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho de familia,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Nuestro equipo de abogados expertos en derecho de familia te ayudará a resolver conflictos familiares,",
+        "title2_span": "incluyendo cuota alimentaria, divorcios, adopciones y más."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/personas/familia/FAMILIA1.png",
+          "title": "Fijación, disminución y aumento de cuota alimentaria.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Cuota alimentaria"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/familia/FAMILIA2.png",
+          "title": "Negociación y mediación.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Acompañamiento en conciliaciones"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/familia/FAMILIA3.png",
+          "title": "Asesoría y trámite de divorcios, disolución y liquidación de sociedad conyugal.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "trámite de divorcios, disolución y liquidación de sociedad conyugal"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/familia/FAMILIA4.png",
+          "title": "Asesoría y trámite de disolución y liquidación de sociedad patrimonial.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Trámite de disolución y liquidación de sociedad patrimonial"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/familia/FAMILIA5.png",
+          "title": "Asesoría y acompañamiento en trámites de adopción.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Trámites de adopción"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/familia/FAMILIA6.png",
+          "title": "Trámites de custodia y patria potestad.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Trámites de custodia y patria potestad"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/familia/FAMILIA7.png",
+          "title": "Trámites de sucesiones.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Trámites de sucesiones"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Además de los servicios expresados,",
+        "title_span": "nos encargamos del caso puntual que necesite,",
+        "title_pt2": "contáctenos.",
+        "image": "/images/experts/liz.webp"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados especializados en derecho de familia",
+        "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "derecho-consumidor": {
+      "title": "Derecho del consumidor",
+      "category": "['derecho del consumidor']",
+      "experts_id": "[1]",
+      "banner": {
+        "image": "/images/portadas-web/derecho-consumidor.png",
+        "title": "Servicios legales en derecho del consumidor: Garantías, publicidad engañosa y más",
+        "description": "En ABOGA defendemos tus derechos como consumidor con nuestros servicios legales, evaluamos cada caso en detalle, en aras de brindar una defensa eficaz al momento de resolver conflictos y asesorar a nuestros clientes para que no sean víctimas de prácticas comerciales injustas o engañosas."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho del consumidor, ",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Protegemos sus derechos como consumidor con nuestros servicios legales ",
+        "title2_span": "en derecho del consumidor."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/personas/consumidor/1consumidor.png",
+          "title": "Demandas por infracción de normas de protección al consumidor relacionadas con garantías, devoluciones de productos.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Demandas por infracción de normas"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/consumidor/2consumidor.png",
+          "title": "Demandas por infracción de normas de protección al consumidor, publicidad engañosa e infracción del deber de seguridad y cuidado de parqueaderos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Publicidad engañosa e infracción del deber de seguridad"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/consumidor/3consumidor.png",
+          "title": "Acción de protección al consumidor y al consumidor financiero.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Acción de protección al consumidor y al consumidor financiero"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/consumidor/4consumidor.png",
+          "title": "Representación en trámite de solicitud de marca, contestación y presentación de oposiciones.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Representación en trámite"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/consumidor/5consumidor.png",
+          "title": " Acción de protección al consumidor.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Protección al consumidor"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Brindamos asesoramiento experto y defensa eficaz",
+        "title_span": "para resolver conflictos",
+        "title_pt2": "y reclamaciones de manera justa y equitativa.",
+        "image": "/images/experts/juan-jose.webp"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados expertos en derecho del consumidor,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    },
+    "propiedad-horizontal": {
+      "title": "Propiedad horizontal",
+      "category": "['propiedad horizontal']",
+      "experts_id": "[2]",
+      "banner": {
+        "image": "/images/portadas-web/propiedad-horizontal.png",
+        "title": "Asesoramiento legal en propiedad horizontal para personas: Expertos en la correcta convivencia",
+        "description": "En ABOGA ofrecemos servicios jurídicos completos y personalizados para resolver conflictos que se presenten entre los copropietarios y residentes, o entre los copropietarios y la propiedad horizontal, ofrecemos soluciones efectivas y eficientes, para la sana convivencia y el correcto funcionamiento en la copropiedad."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en propiedad horizontal,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Descubre nuestro servicio de propiedad horizontal",
+        "title2_span": "y transforma tu hogar en el lugar perfecto para vivir."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/personas/horizontal/1Horizontal.png",
+          "title": "Asuntos Inmobiliarios.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Cartera morosa"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/horizontal/2Horizontal.png",
+          "title": "Demandas.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "reglamento de la propiedad horizontal"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/horizontal/3Horizontal.png",
+          "title": "Titulación de inmuebles.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Cobro y manejo de cartera morosa"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/horizontal/4Horizontal.png",
+          "title": "Procesos ejecutivos.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Protección de los derechos de los copropietarios y residentes"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/horizontal/5Horizontal.png",
+          "title": "Elaboración de cobros prejurídicos.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Protección de los derechos de los copropietarios y residentes"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/horizontal/6Horizontal.png",
+          "title": "Acuerdos de pagos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Protección de los derechos de los copropietarios y residentes"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "¿Necesitas asesoría en propiedad horizontal? Estamos aquí para",
+        "title_span": "guiarte en todas tus decisiones y resolver tus inquietudes.",
+        "title_pt2": "",
+        "image": "/images/experts/osman.webp"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados expertos en propiedad horizontal,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    },
+    "derecho-laboral": {
+      "title": "Derecho laboral",
+      "category": "['derecho laboral']",
+      "experts_id": "[3]",
+      "banner": {
+        "image": "/images/portadas-web/derecho-laboral.png",
+        "title": "Asesoramiento y acompañamiento en derecho laboral para trabajadores",
+        "description": "En ABOGA nuestro objetivo principal es proteger tus derechos como trabajador y brindarte las herramientas necesarias para enfrentarte a cualquier situación laboral, con el fin de obtener resultados justos y equitativos."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho laboral,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Nuestro objetivo es obtener resultados justos y equitativos en tu entorno laboral.",
+        "title2_span": "Te asesoramos en conciliaciones, representación en casos de despido injustificado, acoso laboral y otros conflictos laborales."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/personas/laboral/1laboral.png",
+          "title": "Acompañamiento y asesoramiento en conciliaciones.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "cuota alimentaria"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/laboral/2laboral.png",
+          "title": "Representación en casos de despido injustificado, acoso laboral, y otros\nconflictos laborales.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Acompañamiento en conciliaciones"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/laboral/3laboral.png",
+          "title": "Tutelas y demandas por reintegro laboral.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "sociedad conyugal"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/laboral/4laboral.png",
+          "title": "Trámites de pensiones.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Asesoría y trámite de disolución y liquidación de sociedad"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/laboral/5laboral.png",
+          "title": "Revisión de contratos laborales.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Trámites de adopción"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/laboral/6laboral.png",
+          "title": "Reclamaciones salariales y beneficios laborales.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Custodia y patria potestad"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Además de los servicios expresados, nos encargamos del caso puntual que necesite,",
+        "title_span": "contáctenos.",
+        "title_pt2": "",
+        "image": "/images/experts/liz.webp"
+      },
+      "form":{
+        "title1": "Protegemos tus derechos como trabajador y te brindamos",
+        "titpleSpan": "las herramientas necesarias",
+        "title2": "para enfrentar situaciones laborales."
+      }
+    },
+    "derecho-penal": {
+      "title": "Derecho penal",
+      "category": "['derecho penal']",
+      "experts_id": "[1]",
+      "banner": {
+        "image": "/images/portadas-web/derecho-penal.png",
+        "title": "¿Necesitas asesoramiento legal en temas penales? ¡Estamos aquí para ayudarte!",
+        "description": "En ABOGA entendemos la importancia de tu libertad y reputación, y sabemos que se pueden ver comprometidas cuando nos enfrentamos a situaciones penales, por eso, ofrecemos asesorías y representación en las etapas preliminares y de juicio oral de sus asuntos en materia penal."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho penal,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Brindamos asesoría y representación de personas en las etapas preliminares y de",
+        "title2_span": "juicio oral de sus asuntos en materia penal."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/personas/penal/1penal.png",
+          "title": "Acompañamiento en etapas preliminares.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "etapas preliminares"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/penal/2penal.png",
+          "title": "Redacción y presentación de denuncias.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Denuncias"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/penal/3penal.png",
+          "title": "Acompañamiento en audiencias de acusación, preparatoria y juicio oral.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "acusación, preparatoria y juicio oral"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/penal/4penal.png",
+          "title": "Acompañamiento en audiencias de entrega de vehículos.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Audiencias de entrega de vehículos"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/penal/5penal.png",
+          "title": "Redacción y presentación de recursos.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Redacción y presentación de recursos"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/penal/6penal.png",
+          "title": "Redacción y presentación de querellas.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Redacción y presentación de querellas"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/penal/7penal.png",
+          "title": "Redacción y presentación de incidentes de reparación integral.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Reparación integral"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Protege tus derechos y obtén la mejor defensa con una gran",
+        "title_span": "equipo de profesionales.",
+        "title_pt2": "",
+        "image": "/images/experts/juan-jose.webp"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados expertos en derecho penal,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    },
+    "derecho-constitucional": {
+      "title": "Derecho constitucional",
+      "category": "['derecho constitucional']",
+      "experts_id": "[1]",
+      "over_video":{
+        "video": "/videos/derecho-constitucional/Presentacion-Aboga1.mp4",
+        "question1": "¿Retrasos en la entrega de medicamentos y en la programación de citas?",
+        "description1": "¿Problemas con tu EPS? Demandamos por el retraso en la entrega de tus medicamentos y la programación de tus procedimientos médicos. Protegemos tu derecho a la salud con acciones legales efectivas. ¡Tu bienestar es nuestra causa!",
+        "img1": "/images/servicios/our-services/personas/constitucional/retrasos-medicamentos.png",
+        "question2": "¿Presentaste una petición y no fue respondida?",
+        "description2": "Te asistimos en la presentación de acciones de tutela contra autoridades o particulares por la falta de respuesta oportuna a tus solicitudes, cumpliendo con los términos legales. ¡Tus derechos son nuestra prioridad!",
+        "img2": "/images/servicios/our-services/personas/constitucional/peticion-no-respondida.png",
+        "question3": "¿Crees que una decisión judicial afectó gravemente tus derechos fundamentales?",
+        "description3": "Estudiamos a fondo las sentencias para identificar posibles errores que te brinden oportunidades para interponer recursos, o incluso, presentar una acción de tutela en contra de la decisión judicial. Confía en nuestro asesoramiento legal para proteger tus derechos.",
+        "img3": "/images/servicios/our-services/personas/constitucional/decision-judicial.png"
+      },
+      "vulnerabilities": {
+        "title": "¿Consideras vulnerados tus derechos fundamentales?",
+        "subtitle": "Asesórate con nuestros expertos en Jurisdicción coactiva y recibe el acompañamiento que necesitas",
+        "description": "Somos abogados especializados en:",
+        "list": ["Acciones de tutles.", "Incidentes de desacato.", "Acciones de grupo y populares.", "Y más."]
+      },
+      "banner": {
+        "image": "/images/portadas-web/derecho-constitucional.png",
+        "title": "Asesoramiento y acompañamiento en derecho constitucional",
+        "description": "En ABOGA entendemos la importancia de los derechos fundamentales, por eso, brindamos asesoría legal sólida y eficaz al momento de defenderlos, trabajamos contigo de manera comprometida para desarrollar estrategias legales efectivas."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho constitucional,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Desarrollamos estrategias legales efectivas, como acciones de tutela, acciones de grupo y",
+        "title2_span": "restablecimiento de derechos de menores de edad, para garantizar tus derechos constitucionales."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/personas/constitucional/1constitucionales.png",
+          "title": "Acciones de tutela.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Acciones de tutela"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/constitucional/2constitucionales.png",
+          "title": "Incidentes de desacato.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Incidentes de desacato"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/constitucional/3constitucionales.png",
+          "title": "Acciones de cumplimiento.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Acciones de cumplimiento"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/constitucional/4constitucionales.png",
+          "title": "Acciones populares.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Acciones populares"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/constitucional/5constitucionales.png",
+          "title": "Acciones de grupo.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Acciones de grupo"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/laboral/3laboral.png",
+          "title": "Asesorías y conceptos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Restablecimiento de derechos de menores de edad"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/constitucional/7constitucionales.png",
+          "title": "Demandas de inconstitucionalidad y demandas de nulidad por inconstitucionalidad.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Demandas por inconstitucionalidad"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Además de los servicios expresados,",
+        "title_span": "nos encargamos del caso puntual que necesite",
+        "title_pt2": "contáctenos.",
+        "image": "/images/experts/juan-jose.webp"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados expertos en derecho constitucional,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    },
+    "derecho-civil": {
+      "title": "Derecho civil",
+      "category": "['derecho civil']",
+      "experts_id": "[2]",
+      "banner": {
+        "image": "/images/portadas-web/derecho-civil.png",
+        "title": "Protege tus derechos civiles con asesoramiento legal personalizado",
+        "description": "En ABOGA entendemos la importancia de proteger tus derechos y resolver controversias civilmente, por esto, trabajamos de forma personalizada y revisamos en cada caso todos los detalles, con el objetivo de encontrar las mejores estrategias y soluciones."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho civil,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Protege tus bienes, contratos y derechos civiles con nuestra asesoría legal en derecho civil,",
+        "title2_span": "donde nuestro equipo de abogados te ayudará en procesos de titulación de inmuebles, prescripción adquisitiva y otros temas relacionados."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/personas/civil/1civil.png",
+          "title": "Procesos de restitución de bien inmueble arrendado.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Restitución inmueble arrendado"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/2civil.png",
+          "title": "Asuntos inmobiliarios.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Asuntos inmobiliarios"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/3civil.png",
+          "title": "Redacción de contratos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Redacción de contratos"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/4civil.png",
+          "title": "Demandas y contestaciones de demandas civiles.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Demandas y contestaciones"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/5civil.png",
+          "title": "Procesos monitorios.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Procesos monitorios"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/6civil.png",
+          "title": "Procesos ejecutivos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Procesos ejecutivos"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/7civil.png",
+          "title": "Reclamación de seguros.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Reclamación de seguros"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/8civil.png",
+          "title": "Titulación de inmuebles.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Titulación de inmuebles"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/10civil.png",
+          "title": "Procesos de prescripción adquisitiva.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Procesos de prescripción adquisitiva"
+        },
+        {
+          "img": "/images/servicios/our-services/personas/civil/9civil.png",
+          "title": "Procesos declarativos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Procesos declarativos"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Además de los servicios expresados,",
+        "title_span": "nos encargamos del caso puntual que necesite",
+        "title_pt2": "contáctenos.",
+        "image": "/images/experts/osman.webp"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados expertos en derecho civil,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    }
+  },
+  "empresas": {
+    "derecho-civil": {
+      "title": "Derecho civil",
+      "category": "['derecho civil empresas']",
+      "experts_id": "[2]",
+      "banner": {
+        "image": "/images/portadas-web/derecho-civil-empresas.png",
+        "title": "¿Necesitas asesoramiento legal en temas relacionados con el derecho civil? ¡Estamos aquí para ayudarte!",
+        "description": "En ABOGA ofrecemos asesoría legal para empresas, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho civil",
+        "title_span": "te ayudarán y acompañarán en todo el proceso.",
+        "title2": "Atendemos los requerimientos de su empresa en materia civil",
+        "title2_span": "con el propósito de brindar seguridad y eficiencia."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/empresas/civil/1civilcomercial.png",
+          "title": "Asuntos Inmobiliarios.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/civil/2civilcomercial.png",
+          "title": "Demandas.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/civil/3civilcomercial.png",
+          "title": "Titulación de inmuebles.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/civil/4civilcomercial.png",
+          "title": "Procesos ejecutivos.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/civil/5civilcomercial.png",
+          "title": "Elaboración de cobros prejurídicos.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/civil/6civilcomercial.png",
+          "title": "Acuerdos de pagos.",
+          "description": "",
+          "bg_color": "white"
+        }
+      ],
+      "need_assessor": {
+        "image": "/images/experts/osman.webp",
+        "title_pt1": "Nos encargamos de la",
+        "title_span": "representación judicial y extrajudicial",
+        "title_pt2": "de nuestros clientes."
+      },
+      "form":{
+        "title1": "Nuestro equipo de abogados expertos en derecho civil,",
+        "titpleSpan": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": ""
+      }
+    },
+    "derecho-comercial": {
+      "title": "Derecho Comercial",
+      "category": "['derecho comercial']",
+      "experts_id": "[0]",
+      "banner": {
+        "image": "/images/portadas-web/derecho-comercial.png",
+        "title": "Servicios legales para empresas: Asesoría integral en trámites societarios, contratos comerciales y marcas",
+        "description": "En ABOGA ofrecemos asesoramiento y representación legal en derecho comercial para pequeñas y medianas empresas o personas naturales."
+      },
+      "our_team": {
+        "title": "Es importante que los propietarios de pequeñas y medianas empresas tengan un",
+        "title_span": "conocimiento básico del derecho comercial.",
+        "title2": "Nuestro equipo de abogados expertos en derecho del comercial,",
+        "title2_span": "te ayudarán y acompañarán durante todo el proceso."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/empresas/comercial/1comercial.png",
+          "title": "Trámites societarios, revisión y modificación de estatutos.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/comercial/2comercial.png",
+          "title": "Operaciones societarias (fusión, escisión y adquisiciones).",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/comercial/3comercial.png",
+          "title": "Creación de modelos/minutas comerciales.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/comercial/4comercial.png",
+          "title": "Constitución de sociedades.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/comercial/5comercial.png",
+          "title": "Revisión de contratos con proveedores.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/comercial/6comercial.png",
+          "title": "Contratación comercial.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/comercial/7comercial.png",
+          "title": "Asesoría en la realización de acuerdos comerciales.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/comercial/8comercial.png",
+          "title": "Examen de registrabilidad de marcas y signos distintivos.",
+          "description": "",
+          "bg_color": "blue"
+        }
+      ],
+      "need_assessor": {
+        "image": "/images/experts/keiry.webp",
+        "title_pt1": "Además de los servicios expresados, nos encargamos",
+        "title_span": "del caso puntual que necesite,",
+        "title_pt2": "contáctenos."
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados especializados en derecho comercial",
+        "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "derecho-consumidor-competencia-desleal": {
+      "title": "Derecho del consumidor y competencia desleal",
+      "category": "['consumidor y competencia']",
+      "experts_id": "[1]",
+      "banner": {
+        "image": "/images/portadas-web/competencia-desleal.png",
+        "title": "Protección legal, competencia desleal y tratamientos de datos personales",
+        "description": "En ABOGA asesoramos y representamos a su empresa para que no incurran en actos que puedan perjudicarlos o que las acciones que realice otra empresa no los damnifique."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho del consumidor,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Tenemos abogados especializados en esta área dispuestos a asesorarte",
+        "title2_span": "en tus problemas con respecto a tratamientos de datos personales y redacción de términos y condiciones."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/empresas/consumidor/1CONSUMIDOR.png",
+          "title": "Conceptos sobre incumplimiento de normas en publicidad.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/consumidor/2CONSUMIDOR.png",
+          "title": "Trámites jurisdiccionales ante la Superintendencia de Industria y Comercio (acción de protección al consumidor, actos de competencia desleal, infracciones de propiedad industrial).",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/consumidor/3CONSUMIDOR.png",
+          "title": "Diagnóstico sobre implementación de normas de protección del consumidor en establecimientos comerciales.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/consumidor/4CONSUMIDOR.png",
+          "title": "Consultoría sobre derechos del consumidor y del consumidor financiero.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/consumidor/5CONSUMIDOR.png",
+          "title": "Asesoría en acciones de competencia desleal.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/consumidor/6CONSUMIDOR.png",
+          "title": "Además en relación con la protección de datos personales.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/consumidor/7CONSUMIDOR.png",
+          "title": "Creación y redacción de términos y condiciones para la página web de su empresa.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/consumidor/8CONSUMIDOR.png",
+          "title": "Creación y redacción de políticas de tratamiento de datos personales.",
+          "description": "",
+          "bg_color": "blue"
+        }
+      ],
+      "need_assessor": {
+        "image": "/images/experts/juan-jose.webp",
+        "title_pt1": "Además de los servicios expresados, nos encargamos",
+        "title_span": "del caso puntual que necesite,",
+        "title_pt2": "contáctenos."
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados especializados en derecho del consumidor",
+        "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "derecho-laboral": {
+      "title": "Derecho laboral",
+      "category": "['derecho laboral empresas']",
+      "experts_id": "[0]",
+      "banner": {
+        "image": "/images/portadas-web/background_banner.png",
+        "title": "Optimiza tu gestión laboral: Contratación laboral, reglamento interno, seguridad y aportes al Sistema de Seguridad Social",
+        "description": "En ABOGA asesoramos y representamos a empresas sobre asuntos contractuales, salariales y despidos. Para que no incurran en conductas contrarias a la ley."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho laboral,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Protege tus derechos e intereses con nuestra",
+        "title2_span": "asesoría legal y apoyo especializado."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/empresas/laboral/1laboral.png",
+          "title": "Redacción y creación de contratos de trabajo. ",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/laboral/2laboral.png",
+          "title": "Minutas laborales.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/laboral/3laboral.png.png",
+          "title": "Manejo de despidos.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/laboral/4laboral.png",
+          "title": "Manejo de procesos disciplinarios.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/laboral/5laboral.png",
+          "title": "Redacción y socialización del reglamento interno de trabajo.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/laboral/6laboral.png",
+          "title": "Levantamiento de fuero sindical.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/laboral/7laboral.png",
+          "title": "Trámites de seguridad en el trabajo y la responsabilidad del empleador en casos de accidentes laborales.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/laboral/8laboral.png",
+          "title": "Afiliaciones, liquidación oportuna y correcta de aportes al Sistema de Seguridad Social.",
+          "description": "",
+          "bg_color": "blue"
+        }
+      ],
+      "need_assessor": {
+        "image": "/images/experts/keiry.webp",
+        "title_pt1": "Además de los servicios expresados, nos encargamos",
+        "title_span": "del caso puntual que necesite,",
+        "title_pt2": "contáctenos."
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados especializados en derecho laboral",
+        "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "derecho-tributario": {
+      "title": "Derecho Tributario",
+      "category": "['derecho tributario']",
+      "experts_id": "[0]",
+      "banner": {
+        "image": "/images/portadas-web/derecho-tributario.png",
+        "title": "Protege tu empresa y asegura su crecimiento con nuestro equipo de expertos en Derecho Tributario",
+        "description": "En ABOGA brindamos asesoría en asuntos tributarios, con el propósito de prevenir que su empresa sea sancionada y, así, garantizar el crecimiento seguro de su compañía."
+      },
+      "our_team": {
+        "title": " Nuestro equipo de abogados expertos en derecho tributario,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Protege los derechos e",
+        "title2_span": "intereses económicos de tu empresa."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/empresas/tributario/1tributaria.png",
+          "title": "Representación y asesoría en vía gubernativa por requerimientos administrativos.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/tributario/2tributaria.png",
+          "title": "Representación y asesoría ante la jurisdicción administrativa por asuntos tributarios.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/tributario/3tributaria.png",
+          "title": "Asesoría y representación en devolución de impuestos.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/tributario/4tributaria.png",
+          "title": "Asesoría y representación frente a impuestos nacionales, departamentales y municipales.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/tributario/5tributaria.png",
+          "title": "Asesoría y representación en asuntos tributarios ante Gobernaciones y Alcaldías.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/tributario/6tributaria.png",
+          "title": "Auditoría para el cumplimiento de obligaciones tributarias.",
+          "description": "",
+          "bg_color": "white"
+        }
+      ],
+      "need_assessor": {
+        "image": "/images/experts/keiry.webp",
+        "title_pt1": "Además de los servicios expresados, nos encargamos",
+        "title_span": "del caso puntual que necesite,",
+        "title_pt2": "contáctenos."
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados especializados en derecho tributario",
+        "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "propiedad-horizontal": {
+      "title": "Propiedad-horizontal",
+      "category": "['propiedad horizontal empresas']",
+      "experts_id": "[2]",
+      "banner": {
+        "image": "/images/portadas-web/empresas-horizontal.png",
+        "title": " Soluciones Jurídicas Especializadas para tu Propiedad Horizontal, ¡Estamos aquí para ayudarte!",
+        "description": "En ABOGA ofrecemos servicios jurídicos completos y personalizados para resolver conflictos que se presenten entre los copropietarios y residentes, o entre los copropietarios y la propiedad horizontal."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en propiedad horizontal,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "¡Confía en Nuestro Equipo de",
+        "title2_span": "Abogados Expertos!"
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/empresas/horizontal/1penal.png",
+          "title": "Recuperación de cartera morosa.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Cartera morosa"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/horizontal/2penal.png",
+          "title": "Realización de reglamento de la propiedad horizontal.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "reglamento de la propiedad horizontal"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/horizontal/3penal.png",
+          "title": "Realizamos asesorías sobre el cobro y manejo de cartera morosa.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Cobro y manejo de cartera morosa"
+        },
+        {
+          "img": "/images/servicios/our-services/empresas/horizontal/4penal.png",
+          "title": "Protección de los derechos de los copropietarios y residentes.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Protección de los derechos de los copropietarios y residentes"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Ofrecemos soluciones efectivas y eficientes, para la sana convivencia y",
+        "title_span": "el correcto funcionamiento en la copropiedad.",
+        "title_pt2": "",
+        "image": "/images/experts/osman.webp"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados expertos en propiedad horizontal,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    }
+  }
+}

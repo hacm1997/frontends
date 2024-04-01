@@ -1,0 +1,106 @@
+.container{
+    padding-bottom: 20px;
+}
+.container p{
+    width: 450px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.selection{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px !important;
+    border-color: #FF4632 !important;
+    align-items: center;
+    z-index: 999;
+}
+.selection h3{
+    font-size: 16px;
+}
+
+.content_col1{
+    margin-top: 100px;
+    margin-left: 230px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1300px) {
+    .content_col1{
+        margin-left: 100px;
+    }
+    .container p{
+        width: 300px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .beauty_img img{
+        margin-top: 50px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 750px) {
+    .content_col1{
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+    .selection{
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .content_col1{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .beauty_img img{
+        width: 100%;
+    }
+    .content_col1 h4{
+        display: flex;
+        justify-content: center;
+    }
+    .description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .selection{
+        padding-left: 15px;
+        width: 400px;
+    }
+    .slider_section{
+        height: auto;
+        width: 400px;
+        background-image: none;
+    }
+    .container p{
+        width: 380px;
+    }
+}
+
+/* Background of slider */
+.slider_section{
+    margin-top: 30px;
+    background-image: url("/images/content/artistics/component2/back-sliders.png");
+    background-size: 100% 100%;
+    height: 1040px;
+    width: 1250px;
+}
+
+@media (max-width: 890px) {
+    .beauty_img img{
+        width: 90%;
+    }
+}
+
+/* Responsive Slider */
+@media (max-width: 765px) {
+    .slider_section{
+        width: 90%;
+        height: auto;
+        padding-bottom: 80px;
+    }
+}

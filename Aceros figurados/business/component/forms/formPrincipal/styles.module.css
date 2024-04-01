@@ -1,0 +1,180 @@
+.section {
+    position: relative;
+    height: 100%;
+    background-image: url("/images/fondo-formu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0 120px 0;
+}
+
+.apoyoLeft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.suelo {
+    width: 100%;
+    height: 52px;
+    position: absolute;
+    bottom: -4px;
+    z-index: 2;
+}
+
+.suelo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.suelo:before {
+    content: "";
+    position: absolute;
+    bottom: 52px;
+    left: 43%;
+    width: 406px;
+    height: 97px;
+    background-image: url("/images/apoyoGrafico/maquina-postes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+
+}
+
+.suelo:after {
+    content: "";
+    position: absolute;
+    bottom: 52px;
+    left: 300px;
+    width: 160px;
+    height: 105px;
+    background-image: url("/images/apoyoGrafico/ganchos-cata.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.apoyoRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.maquina1{
+    position: absolute;
+    bottom: 44px;
+    right: 30%;
+}
+.general {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.content h2 {
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content p {
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+    width: 370px;
+    text-align: center;
+}
+
+
+.formGeneral {
+    max-width: 440px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.general form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.general form:before {
+    content: "";
+    position: absolute;
+    bottom: -72px;
+    right: -350px;
+    background-image: url("/images/apoyoGrafico/maquina-1.png");
+    width: 407px;
+    height: 258px;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+.general form:after {
+    content: "";
+    position: absolute;
+    bottom: -72px;
+    left: -210px;
+    background-image: url("/images/apoyoGrafico/catapila.png");
+    width: 201px;
+    height: 63px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.general form input {
+    width: 100%;
+    height: 50px;
+    border: solid 3px #000000;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.general form input:focus {
+    outline: none;
+}
+
+.general form input::placeholder {
+    color: #000000;
+}
+
+.general form button {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.general form button:hover {
+    background-color: #f2ac38;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+@media (max-width: 1233px) {
+    .suelo:after {
+        display: none;
+    }
+}

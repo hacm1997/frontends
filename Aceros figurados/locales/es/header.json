@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "item": {
+      "home": {
+        "name": "Pilotaje",
+        "url": "/",
+        "active": true,
+        "style": "homeBtn"
+      },
+      "pantallaBarrete": {
+        "name": "Pantallas y Barretes",
+        "url": "/pantalla-barrete",
+        "active": false,
+        "style": "cimentacionBtn"
+      },
+      "project": {
+        "name": "Definir Proyecto",
+        "url": "definir-proyecto",
+        "active": false,
+        "style": ""
+      },
+      "button": {
+        "name": "Agendar cita",
+        "url": "https://api.whatsapp.com/send?phone=573146385078&text=Hola%20Aceros%20Figurados%F0%9F%9A%A7%F0%9F%8F%97%EF%B8%8F,%20estuve%20navegando%20tu%20sitio%20web,%20me%20gustar%C3%ADa%20realizar%20una%20cotizaci%C3%B3n%20de%20materiales%20con%20ustedes."
+      }
+    }
+  }
+}

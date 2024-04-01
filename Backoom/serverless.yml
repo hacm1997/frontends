@@ -1,0 +1,4 @@
+backoom:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    domain: [ "backoom.com" ]

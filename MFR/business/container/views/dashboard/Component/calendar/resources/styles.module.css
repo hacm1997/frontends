@@ -1,0 +1,63 @@
+.resources_content{
+    height: 600px;
+    overflow-y: auto;
+}
+.list_resources{
+    list-style: none;
+    padding-top: 5px;
+}
+.list_resources li{
+    padding: 5px;
+    background-color: #8C15E4;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin-left: -30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.list_resources li:hover{
+    background-color: #100146;
+    transition: 0.5s;
+}
+
+.active li{
+    padding: 5px;
+    background-color: #100146;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    margin-left: -30px;
+}
+.section_btn{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    gap: 10px;
+}
+.btn_calendar{
+    background-color: #8C15E4;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    height: 35px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.btn_calendar:hover{
+    background-color: #100146;
+    transition: 0.5s;
+}
+.btn_calendar_active{
+    background-color: #100146;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
+    height: 35px;
+    padding: 5px;
+    transition: 0.3s;
+}

@@ -1,0 +1,96 @@
+.general .grid .content_slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sliders {
+    height: auto;
+    background-size: 100% 100%;
+    padding: 29px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.content_swiper{
+    width: 1000px;
+}
+
+.swiper img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.swiper {
+    overflow:hidden;
+}
+
+.swiper div {
+    height: 400px;
+    object-fit: contain;
+    padding-left: 30px;
+}
+
+.swiper div p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.prev_btn{
+    font-size: 80px;
+}
+.prev_btn a i{
+    color: #FF4632;
+    cursor: pointer;
+    transition: 1s;
+}
+.prev_btn a i:hover{
+    font-size: 90px;
+}
+
+.next_btn{
+    font-size: 80px;
+}
+.next_btn a i{
+    color: #FF4632;
+    cursor: pointer;
+    transition: 1s;
+}
+.next_btn a i:hover{
+    font-size: 90px;
+}
+
+.descriptions{
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px !important;
+    height: 250px;
+    color: #000000;
+}
+
+.ratingHeart{
+    margin-left: -60px;
+    padding-bottom: 20px;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 786px) {
+    .prev_btn{
+        display: none;
+    }
+    .next_btn{
+        display: none;
+    }
+}
+
+@media (max-width: 486px) {
+    .content_swiper{
+        width: 280px;
+    }
+}

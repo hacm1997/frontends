@@ -1,0 +1,40 @@
+
+.moneda_nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn_nav {
+    color: #000000 !important;
+}
+
+.btn_nav:active {
+    color: #fafafa;
+}
+.btn_nav:hover {
+    color: #fafafa;
+}
+
+.currency{
+    
+    height: 30px;
+    border: 1px solid #8C15E4;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.currency option{
+    color: #8C15E4;
+    font-weight: 700;
+}
+
+@media (max-width: 450px) {
+    .currency{
+        margin-left: -60px;
+        margin-bottom: 20px;
+        
+    }
+    .moneda_nav{
+        display: block;
+        
+        
+    }
+}

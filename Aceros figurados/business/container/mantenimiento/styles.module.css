@@ -1,0 +1,415 @@
+.section {
+    background-image: url("/images/Aceros-figurados-web-mantenimiento.jpg");
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subImagen {
+    background-image: url("/images/subImagen.jpg");
+    width: 95%;
+    height: 950px;
+    box-shadow: 0 0 20px 20px rgb(0 0 0 / 50%);
+    overflow: hidden;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.content_1 .logo {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.content_1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.content_1 p {
+    position: relative;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 0;
+    z-index: 2;
+    padding: 0 40px;
+}
+
+.content_1 p span {
+    position: relative;
+    animation: letraM 4s infinite;
+}
+
+@keyframes letraM {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -40px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.maquina_funcional {
+    position: absolute;
+    bottom: 7px;
+    left: 88px;
+    height: 287px;
+}
+
+.content_1 .maquina {
+    position: absolute;
+    bottom: 0;
+    padding: 0 40px;
+}
+
+.gancho {
+    width: 28px;
+    animation: gancho 4s infinite;
+}
+
+@keyframes gancho {
+    0% {
+        height: 160px;
+    }
+    50% {
+        height: 110px;
+    }
+    100% {
+        height: 160px;
+    }
+}
+
+.content_1 .gancho {
+    position: absolute;
+    top: 169px;
+    left: 270px;
+
+}
+
+.balla {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    z-index: 3;
+}
+.general_tractor{
+    width: 100%;
+}
+.carretera{
+    position: absolute;
+    bottom: 2px;
+}
+
+.tractor {
+    position: absolute;
+    bottom: 10px;
+    z-index: 3;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    animation: tractor 8s infinite;
+}
+
+@keyframes tractor {
+    0% {
+        left: -140px;
+        transform: rotateY(0deg);
+    }
+    100% {
+        left: 1300px;
+    }
+}
+
+.content_2 {
+    position: relative;
+    margin-top: 10px;
+    left: -30px;
+}
+
+.content_2 h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+    z-index: 2;
+    text-shadow: 0 0 20px rgb(0 0 0 / 50%);
+}
+.content_2 p a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content_2 p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fafafa;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.content_2 p i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fecd31;
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0;
+    z-index: 2;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.content_2 p i:hover {
+    color: #fff;
+    background-color: #fecd31;
+}
+@media (max-width: 1600px) {
+    .content_1 p{
+        font-size: 80px;
+    }
+    .content_1 .gancho{
+        left: 250px;
+    }
+}
+
+@media (max-width: 1357px) {
+    .carretera{
+        bottom: -23px;
+    }
+    .content_1 p {
+        line-height: 1;
+        font-size: 60px;
+    }
+
+    .content_1 {
+        overflow: initial;
+    }
+
+    .maquina_funcional {
+        height: 227px;
+        max-width: 343px;
+    }
+
+    .content_1 .maquina {
+        bottom: -25px;
+    }
+
+    .content_1 .maquina_funcional {
+        bottom: -18px;
+        left: 50px;
+    }
+
+    .content_1 .gancho {
+
+        top: 179px;
+        left: 200px;
+
+    }
+
+
+    @keyframes gancho {
+        0% {
+            height: 120px;
+        }
+        50% {
+            height: 70px;
+        }
+        100% {
+            height: 120px;
+        }
+    }
+    .tractor {
+        bottom: -15px;
+    }
+
+    .balla {
+        bottom: -15px;
+        left: 80px;
+    }
+
+    .content_2 {
+        position: relative;
+        top: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+
+
+    .content_1 .gancho {
+        left: 195px;
+    }
+
+    .logo{
+        position: relative;
+        top: -60px;
+    }
+}
+
+@media (max-width: 949px) {
+    .content_1 p {
+        font-size: 40px;
+    }
+    .content_1 .maquina_funcional{
+        left: 5px;
+        height: 200px;
+    }
+    .content_1 .gancho {
+        left: 140px;
+
+    }
+}
+
+@media (max-width: 677px) {
+    .content_1 .maquina_funcional{
+        height: 250px;
+    }
+    
+}
+
+
+@media (max-width: 659px) {
+    .carretera{
+        bottom: -38px;
+    }
+
+    .content_1 .gancho {
+        top: 164px;
+    }
+
+    .content_2 p {
+        font-size: 20px;
+    }
+
+    .content_2 p i {
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+    }
+
+    .content_2 {
+        left: 0;
+    }
+
+    .content_1 .maquina {
+        bottom: -40px;
+    }
+
+    .content_1 .maquina_funcional {
+        bottom: -30px;
+    }
+
+    .balla {
+        bottom: -30px;
+        left: 80px;
+    }
+    .logo img{
+        width: 390px;
+    }
+
+    @keyframes gancho {
+        0% {
+            height: 100px;
+        }
+        50% {
+            height: 60px;
+        }
+        100% {
+            height: 100px;
+        }
+    }
+}
+
+@media (max-width: 483px) {
+    .content_1 p {
+        font-size: 40px;
+    }
+
+    .maquina_funcional {
+        height: 250px;
+        max-width: 343px;
+        left: 10px;
+    }
+
+    .content_1 .gancho {
+        left: 143px;
+        top: 192px;
+    }
+
+    .content_1 .maquina {
+        padding: 0;
+        left: -20px;
+    }
+
+    .balla {
+        display: none;
+    }
+
+    .tractor {
+        bottom: -30px;
+    }
+
+    @keyframes gancho {
+        0% {
+            height: 90px;
+        }
+        50% {
+            height: 60px;
+        }
+        100% {
+            height: 90px;
+        }
+    }
+
+    @keyframes letraM {
+        0% {
+            top: 0;
+        }
+        50% {
+            top: -30px;
+        }
+        100% {
+            top: 0;
+        }
+    }
+    .general {
+        align-items: normal;
+    }
+
+    .content_2 {
+        padding: 0 40px;
+    }
+    .content_2 h2{
+        font-size: 33px;
+    }
+    .logo img{
+        width: 330px;
+    }
+
+    .content_1 .gancho {
+        top: 137px;
+    }
+
+}

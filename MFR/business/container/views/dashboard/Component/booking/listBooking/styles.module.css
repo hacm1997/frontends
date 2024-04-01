@@ -1,0 +1,43 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(260px, 1fr));
+    gap: 20px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.grid_container h4{
+    font-size: 20px;
+}
+
+.grid_item {
+    padding: 15px;
+}
+
+.list_booking{
+    border: 1px solid #8C15E4;
+    padding: 10px;
+}
+
+.list_booking p{
+    color: black;
+
+}
+.editBtn{
+    color: #0070f3;
+    cursor: pointer;
+}
+
+.success{
+    color: green !important;
+    font-weight: bold;
+}
+.cancel{
+    color: red !important;
+    font-weight: bold;
+}
+
+.modal_body2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

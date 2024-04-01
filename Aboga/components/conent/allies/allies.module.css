@@ -1,0 +1,26 @@
+.title{
+    font-family: GothamMedium, serif;
+
+}
+.allies img{
+    width: 210px;
+}
+.content_swiper{
+    width: 850px;
+}
+
+@media (max-width: 720px){
+    .title{
+        text-align: center;
+    }
+    .allies{
+        display: block;
+
+    }
+    .allies img{
+        width: 100%;
+    }
+    .content_swiper{
+        width: 100%;
+    }
+}

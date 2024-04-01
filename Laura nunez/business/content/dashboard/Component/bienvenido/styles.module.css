@@ -1,0 +1,26 @@
+.bienvenido h1 {
+    position: relative;
+    Width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.bienvenido h1 span {
+    color: #FF4632;
+    font-weight: 800;
+}
+
+@media (max-width: 767px) {
+    .bienvenido h1 {
+        font-size: 40px;
+        top: 50px;
+    }
+}
+@media (max-width: 700px) {
+    .bienvenido{
+        display: none;
+    }
+}

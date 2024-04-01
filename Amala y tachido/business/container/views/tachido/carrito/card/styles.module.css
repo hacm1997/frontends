@@ -1,0 +1,108 @@
+.card {
+  border-top: 2px solid #cecece;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.listAdd {
+  line-height: 5px;
+  font-size: 20px;
+}
+
+.singleImg {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.content h2 {
+  font-size: 30px;
+  color: #ce1126;
+  font-weight: 600;
+}
+
+.content span {
+  font-size: 15px;
+  color: #3a3a3a;
+  font-weight: 400;
+}
+
+.singleImg img {
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.cantidad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #ce1126;
+  border-radius: 30px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+.cantidad i {
+  color: #dd172d;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+}
+
+.price p {
+  font-size: 29px;
+  color: #dd172d;
+  font-weight: 600;
+}
+
+.price span {
+  color: #006847;
+}
+
+@media (max-width: 1174px) {
+  .content h2 {
+    font-size: 18px;
+  }
+
+  .content span {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 1045px) {
+  .singleImg {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .price p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+  }
+
+  .singleImg img {
+    margin-top: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

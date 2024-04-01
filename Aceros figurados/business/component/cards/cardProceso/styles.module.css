@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 224px;
+    width: 100%;
+    height: 245px;
+    background-color: #000000;
+    padding: 0 20px;
+    text-align: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border: solid 3px #fecd31;
+}
+
+.card:hover .content p {
+    width: 190px;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.content p{
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .icon{
+        width: 80px;
+    }
+}

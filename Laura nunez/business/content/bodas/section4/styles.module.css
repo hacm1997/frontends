@@ -1,0 +1,161 @@
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.photo img{
+    object-fit: cover;
+}
+
+.conten_boda1{
+    background-image: url("/images/content/bodas/section4/background_pink.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -50px;
+    margin-left: 0px;
+    width: 420px;
+    height: 400px;
+}
+
+.description{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 55%;
+    left: 7%;
+    transform: translate(0, -50%);
+}
+
+.description p{
+    width: 240px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.contentCol2{
+    width: 400px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.title{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+.description2{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.list{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.list li{
+    padding-top: 10px;
+}
+
+.btn{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.btn button{
+    width: 210px;
+    height: 35px;
+    font-size: 11px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    background-size: 100% auto;
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid #FF4632;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.btn button:hover {
+    transition: 0.5s ease-in-out;
+    background: #FF4632;
+    color: white;
+    transform: translateY(5px);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1285px) {
+    .photo img{
+        width: 350px;
+    }
+    .conten_boda1{
+        width: 350px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .photo img{
+        width: 300px;
+    }
+    .conten_boda1{
+        width: 300px;
+    }
+}
+
+@media (max-width: 940px) {
+    .photo img{
+        width: 260px;
+    }
+    .conten_boda1{
+        width: 260px;
+    }
+    .description p{
+        width: 180px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 760px) {
+    .content1{
+        display: flex;
+        justify-content: center;
+    }
+    .content2{
+        display: flex;
+        justify-content: center;
+    }
+    .photo img{
+        width: 250px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 660px) {
+    .content1{
+        display: block;
+    }
+    .content2{
+        display: block;
+    }
+    .photo{
+        display: flex;
+        justify-content: center;
+
+    }
+    .conten_boda1{
+        width: 260px;
+        z-index: -999;
+    }
+    .cont_responsive{
+        display: flex;
+        justify-content: center;
+    }
+}

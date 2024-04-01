@@ -1,0 +1,115 @@
+.formulario_general {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.formulario_general form {
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.formulario_general form select {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 0;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.formulario_general form {
+    padding: 40px;
+}
+
+.formulario_general form button {
+    width: 100%;
+    height: 40px;
+    background-color: #F2AC38;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.single_input{
+    width: 49%;
+}
+
+.formulario_general form button:hover {
+    background-color: #000000;
+    color: #F2AC38;
+}
+
+.formulario_general form select option {
+    font-size: 14px;
+    border-radius: 0 !important;
+}
+
+.formulario_general form input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #000000;
+    border-radius: 0;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.group_input {
+    display: flex;
+    gap: 20px;
+
+}
+
+.adjuntar {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: -12px;
+    height: 380px;
+}
+
+.group_adjuntar > input {
+    display: none;
+}
+
+.group_adjuntar img {
+    cursor: pointer;
+}
+
+.adjuntar:after {
+    content: "";
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    top: 250px;
+    left: -20px;
+    background-image: url("/images/linea-negras.png");
+}
+.nameFile{
+    color: #f2ac38;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+@media (max-width: 900px) {
+    .formulario_general{
+        flex-direction: column;
+        align-items: center;
+    }
+    .adjuntar:after {
+        display: none;
+    }
+}

@@ -1,0 +1,112 @@
+{
+  "Header": {
+    "title": "Pilotaje ",
+    "content": "El pilotaje es una técnica de fundación utilizada en estructuras donde los  terrenos del suelo no son lo suficientemente resistentes para soportar el peso de la estructura.",
+    "image": "/images/header-pilotaje2.png"
+  },
+  "latestTechnology": {
+    "title": "Maquinaria de última",
+    "titleSpan": "tecnología",
+    "content": "Nuestra empresa cuenta con maquinaria especializada para ejecutar sus proyectos con los mas altos estandares de calidad y cumplimiento.",
+    "button": "#"
+  },
+  "imageSecond": "images/Pilotajes.png",
+  "machines": {
+    "list": [
+      {
+        "machine": "images/maquinas/Maquina-pilotaje-1.jpg",
+        "alt": "Maquina de pilotaje",
+        "title": "Maquina de pilotaje",
+        "content": ""
+      },
+      {
+        "machine": "images/maquinas/Maquina-pilotaje-2.jpg",
+        "alt": "Maquina de pilotaje",
+        "title": "Maquina de pilotaje",
+        "content": ""
+      },
+      {
+        "machine": "images/maquinas/Maquina-pilotaje-3.jpg",
+        "alt": "Maquina de pilotaje",
+        "title": "Maquina de pilotaje",
+        "content": ""
+      },
+      {
+        "machine": "images/maquinas/maquina-pilotaje-5.png",
+        "alt": "Maquina de pilotaje",
+        "title": "Maquina de pilotaje",
+        "content": ""
+      },
+      {
+        "machine": "images/maquinas/maquina-7.jpg",
+        "alt": "Maquina de pilotaje",
+        "title": "Maquina de pilotaje",
+        "content": ""
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "¡Programa tu cita ahora!",
+    "content": "Déjanos tus datos y nos pondremos en contacto contigo",
+    "item": [
+      {
+        "placeholder": "Nombre completo",
+        "name": "name",
+        "type": "text"
+      },
+      {
+        "placeholder": "Tel/Cel",
+        "name": "phone",
+        "type": "number"
+      },
+      {
+        "placeholder": "Email",
+        "name": "email",
+        "type": "email"
+      }
+    ]
+  },
+  "types": {
+    "title": "Tipos de Pilotaje",
+    "list": [
+      {
+        "title": "Pilotaje Kelly",
+        "description": "El subsuelo es excavado continuamente mediante un balde de extracción. El concreto se funde mediante la utilización de una tubería tremie. Por lo general este sistema es utilizado en pilotes de diámetro 0.50 mts en adelante."
+      },
+      {
+        "title": "Pilotaje Tornillo",
+        "description": "Es excavado por un tornillo o broca de alma hueca, que rota continuamente extrayendo así el material del subsuelo. El concreto se funde mediante la inyección del mismo a través del alma hueca de la broca. Por lo general este sistema es utilizado en pilotes de diámetro 0.30 y 0.40 mts."
+      }
+    ]
+  },
+  "allies": {
+    "title": "Empresas que han confiado en nosotros",
+    "data": [
+      {
+        "image": "/images/logo-empresa/civilia-sa.JPG",
+        "alt": "Civilia-SA"
+      },
+      {
+        "image": "/images/logo-empresa/construcciones-isarco-sas.JPG",
+        "alt": "Construcciones-ISARCO-SAS"
+      },
+      {
+        "image": "/images/logo-empresa/constructura-ossa-lopez.JPG",
+        "alt": "Constructura-Ossa-Lopez"
+      },
+      {
+        "image": "/images/logo-empresa/gerencia-construccion-arquitectura-sa.JPG",
+        "alt": "Gerencia-Construccion-Arquitectura-SA"
+      },
+      {
+        "image": "/images/logo-empresa/ochoa-albornoz.JPG",
+        "alt": "Ochoa-Albornoz"
+      },
+      {
+        "image": "/images/logo-empresa/Promotora-convivienda.jpg",
+        "alt": "Promotora-Convivienda"
+      }
+    ]
+  }
+}

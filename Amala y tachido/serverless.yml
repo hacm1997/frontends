@@ -1,0 +1,4 @@
+amalaytachido:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    domain: ["amalaytachido.com"]

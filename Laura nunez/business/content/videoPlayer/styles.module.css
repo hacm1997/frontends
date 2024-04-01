@@ -1,0 +1,23 @@
+.modal_body{
+    height: 510px;
+    margin-top: -45px;
+}
+.modal_body video{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 33px 0px rgba(245,12,12,0.48);
+    -moz-box-shadow: 0px 2px 33px 0px rgba(245,12,12,0.48);
+    box-shadow: 0px 2px 33px 0px rgba(245,12,12,0.48);
+    z-index: -1 !important;
+}
+
+.btn_close{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    color: red;
+
+    z-index: 2;
+}
+.btn_close a{
+    font-size: 30px;
+}

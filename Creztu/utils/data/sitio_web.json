@@ -1,0 +1,59 @@
+{
+    "id": "sitio Web",
+    "videoWeb": "/videos/Slider-sitioWeb.mp4",
+    "videoMobile": "/videos/video_mobil_cabecera.mp4",
+    "buttonOffert": "Obtener oferta",
+    "buttonBuy": "Comprar ahora",
+    "buttonIcon": "/img/arrow.webp",
+    "submenu": ["DISEÑO UX/UI", "SERVIDORES AMAZON", "RESERVAS", "INMOBILIARIAS"],
+    "turboBoost": {
+        "title": "¿Listo para el turbo boost en tus presencia digital?",
+        "subtitle": "Creztu inmobiliaria es la maquila más veloz y con la última tecnología, dándote la ventaja que necesitas, Más reservas, más rápido.",
+        "button": "Comienza ya"
+    },
+    "serviceInfo": {
+        "title": "Creztu inmobiliaria",
+        "subtitle": "Icono de estilo y funcionalidad",
+        "image": "",
+        "button": "Sumérgete en la experiencia y la conversión"
+    },
+    "plan": {
+        "text1": "¡Eleva tu Inmueble!",
+        "text2": "Plan plataforma inmueble Full:",
+        "priceMonth": "499.000",
+        "priceYear": "4.999.900",
+        "moreInfo": ""
+    },
+    "technologies": {
+        "image": "",
+        "title1": "Sumérgete en la tecnología",
+        "description1": "Redefine el concepto de Reservas. Donde tu inmueble y usuarios convergen para crear una experiencia sin igual.",
+        "title2": "Más que vender, haz historia.",
+        "description2": "Con Creztu, emprende el futuro digital y lleva tu inmueble a nuevas alturas."
+    },
+    "platform": {
+        "title": "Tu Plataforma de reservas. Tu inmueble, Tu Libertad, tus reglas.",
+        "image": "",
+        "buttonJoin": "Unirme ahora"
+    },
+    "offerts": {
+        "title": "Navega hacia una inversión rentable",
+        "plans": [
+            {
+                "title": "PLAN E-COMMERCE FULL",
+                "price": "4.999.900",
+                "serviceList": []
+            },
+            {
+                "title": "PLAN ALTO IMPACTO",
+                "price": "2.999.900",
+                "serviceList": []
+            },
+            {
+                "title": "PLAN ALTO DESPEGUE",
+                "price": "1.999.900",
+                "serviceList": []
+            }
+        ]
+    }
+}

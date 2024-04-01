@@ -1,0 +1,89 @@
+.grid_background{
+    background-image: url("/images/content/bodas/section5/grid.png");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin-top: -60px;
+}
+
+.self_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.self_logo img{
+    margin-top: 130px;
+}
+
+.images{
+    margin-top: -210px;
+}
+
+.women1{
+    display: flex;
+    justify-content: right;
+}
+
+.women1 img:hover{
+    transform: scale(1.1);
+}
+
+.women3{
+    display: flex;
+    justify-content: left;
+}
+.women3 img:hover{
+    transform: scale(1.1);
+}
+
+.women1, .women3{
+    margin-top: -55px;
+}
+
+.women1 img, .women3 img{
+    transition: transform .2s;
+}
+
+.women2{
+    display: flex;
+    justify-content: center;
+}
+
+.women2 img{
+    width: 300px;
+    transition: transform .2s;
+}
+.women2 img:hover{
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1145px) {
+    .women1 img, .women3 img{
+        width: 250px;
+    }
+    .women2 img{
+        width: 150px;
+    }
+    .self_logo img{
+        width: 250px;
+    }
+}
+
+@media (max-width: 760px) {
+    .women1, .women2, .women3{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .women1 img, .women3 img{
+        width: 300px;
+
+    }
+    .women2 img{
+        width: 300px;
+    }
+    .self_logo img{
+        width: 300px;
+    }
+}

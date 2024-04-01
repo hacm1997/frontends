@@ -1,0 +1,30 @@
+.slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.slider .heroImage {
+  width: 100%;
+  height: auto;
+  object-position: center;
+  object-fit: cover;
+}
+
+@media (max-width: 1190px) {
+  .singleImg img {
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media(width < 650px) {
+  @media (max-width: 1190px) {
+    .slider .heroImage {
+      height: 300px;
+    }
+  }
+}

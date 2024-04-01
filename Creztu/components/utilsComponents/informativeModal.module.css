@@ -1,0 +1,6 @@
+.modal{
+    background: #8584841b;
+    opacity: 1;
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+}

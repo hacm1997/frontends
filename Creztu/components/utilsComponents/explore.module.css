@@ -1,0 +1,27 @@
+.titleHeader {
+    text-align: center;
+    background: linear-gradient(102deg, #FD8E56 31.57%, #FFFFFF 56.04%, #EF5A0F 78.56%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    align-self: center;
+  }
+
+.subtitleHeader {
+    text-align: center;
+    background: linear-gradient(102deg, #FD8E56 31.57%, #FFFFFF 56.04%, #EF5A0F 78.56%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    align-self: center;
+}
+
+@media (max-width: 768px){
+  .subtitleHeader {
+    background: linear-gradient(102deg, #FD8E56 31.57%, #EF5A0F 56.04%, #EF5A0F 78.56%);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    color: #EF5A0F;
+}
+}

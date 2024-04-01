@@ -1,0 +1,52 @@
+.container{
+    background-image: url("/images/landing/menu2v1.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.content{
+    background-image: url("/images/landing/menu2-1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.menuCard{
+    position: relative;
+    top: 35%;
+    left: 60%;
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.menuCard p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: -5px;
+}
+/* RESPONSIVE */
+@media (max-width: 975px) {
+    .menuCard{
+        left: 60%;
+    }
+}
+@media (max-width: 620px) {
+    .menuCard{
+        top: 40%;
+    }
+}

@@ -1,0 +1,177 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.content_amala{
+    display: inline;
+    justify-content: left;
+}
+
+.content_tachido{
+    display: inline;
+    justify-content: right;
+
+}
+
+.amala{
+    background-image: url("/images/landing/pizza-amala.png");
+    background-position: 5% 100%;
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+
+}
+.content_amala .line_amala hr{
+    margin-top: -10px;
+    height: 15px;
+    background-color: #006847;
+    width: 100%;
+}
+
+.tachido{
+    background-image: url("/images/landing/tacos-tachido.png");
+    background-position: 100% 50%;
+    background-size: 85% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+}
+.content_tachido .line_tachido hr{
+    margin-top: -10px;
+    height: 15px;
+    background-color: #CE1126;
+    width: 100%;
+}
+
+.contact{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.content_contact{
+    margin-top: 20px;
+}
+
+.location{
+    padding-top: 20px;
+}
+
+.location label{
+    font-weight:500;
+}
+
+.location select{
+    font-weight:500;
+    margin-top: 5px;
+    padding-left: 10px;
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #006847;
+}
+
+.content_contact button{
+    width: 75%;
+    height: 60px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #3BB73E;
+    cursor: pointer;
+    transition: .5s;
+}
+.content_contact button:hover{
+    background-color: #006847;
+    transition: .8s;
+}
+.content_contact a{
+    margin-top: 5px !important;
+}
+.content_contact button a{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    margin-top: -10px !important;
+}
+
+.text_contact{
+    position: relative;
+    top: -5px;
+}
+
+.social_networks{
+    padding-top: 15px;
+    display: inline-grid;
+    grid-template-columns: 55px 55px 50%;
+    gap: 30px;
+    justify-items: center;
+}
+
+.network_icon{
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.network_icon:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    transition: .8s;
+    margin-top: -5px;
+}
+
+.network_icon i{
+    color: #FFFFFF;
+    font-size: 35px;
+    transition: .8s;
+
+}
+.network_icon i:hover{
+    color: #000000;
+    transition: .8s;
+}
+
+.hours p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight:500;
+}
+
+.network_float{
+    display: inline-grid;
+    grid-template-columns: 40px 40px;
+    gap: 20px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -25px;
+}
+
+.logo_contact{
+    cursor: pointer;
+    transition: 1s;
+    filter: drop-shadow(3px 8px 9px #000);
+}
+.logo_contact:hover{
+    margin-top: -5px;
+    transition: 1s;
+    filter: drop-shadow(7px 10px 15px #006847);
+}
+
+/* RESPONSIVE */
+@media (max-width: 950px) {
+    .grid_container{
+        display: inline-block;
+    }
+    .contact{
+        display: block;
+        justify-content: center;
+    }
+}

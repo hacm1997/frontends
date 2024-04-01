@@ -1,0 +1,38 @@
+.background{
+    margin-top: -30px;
+    background-image: url("/images/content/artistics/component3/grid-brackground.png");
+    background-size: 100% 100%;
+    padding-bottom: 50px;
+}
+
+.background .image{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.background .boton{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 150px;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    background-size: 100% auto;
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid #FF4632;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.btn:hover {
+    transition: 0.5s ease-in-out;
+    background: #FF4632;
+    color: white;
+}

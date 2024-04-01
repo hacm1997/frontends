@@ -1,0 +1,255 @@
+.section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/tachido/fondo/fondo-menu.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.section2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/amala/fondo/fondo-menu.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  /* padding: 40px 0; */
+}
+
+.section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 184px;
+  height: 500px;
+  background-image: url("/images/tachido/apoyoGrafico/2-hojas.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: flotando 10s infinite;
+}
+
+.section:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 184px;
+  height: 500px;
+  background-image: url("/images/tachido/apoyoGrafico/1-tomate.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: flotando 10s infinite;
+  animation-delay: 5s;
+}
+
+.section2:before {
+  content: "";
+  position: absolute;
+  top: 360px;
+  left: 0;
+  width: 380px;
+  height: 500px;
+  background-image: url("/images/amala/apoyoGrafico/1-pizza.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: flotando 10s infinite;
+}
+
+.section2:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 384px;
+  height: 500px;
+  background-image: url("/images/amala/apoyoGrafico/2-pizza.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: flotando 10s infinite;
+  animation-delay: 5s;
+}
+
+@keyframes flotando {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(60px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.general {
+  width: 100vw;
+}
+
+.cardGeneral {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  gap: 40px;
+}
+
+.cardGeneral .promo2 .subMenu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.product2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 1rem;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.promo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.promo2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  width: fit-content;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+
+.promo:before {
+  content: "";
+  position: absolute;
+  bottom: 80px;
+  left: -100px;
+  width: 345px;
+  height: 193px;
+  background-image: url("/images/tachido/apoyoGrafico/tachido.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.product:before {
+  content: "";
+  position: absolute;
+  bottom: -90px;
+  right: -80px;
+  width: 345px;
+  height: 193px;
+  background-image: url("/images/tachido/apoyoGrafico/1-hoja.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.product2:before {
+  content: "";
+  position: absolute;
+  bottom: -490px;
+  right: -69px;
+  width: 345px;
+  height: 450px;
+  background-image: url("/images/amala/apoyoGrafico/1-jamon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .cardGeneral .promo2 .subMenu {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 1222px) {
+  .product:before {
+    right: 0;
+  }
+
+  .product2:before {
+    display: none;
+  }
+
+  .section2:before {
+    top: 180px;
+  }
+
+  .section2:after {
+    top: 250px;
+    z-index: 0;
+  }
+}
+
+@media (width < 650px) {
+  .section2:before {
+    display: none;
+  }
+
+  .section2:after {
+    display: none;
+  }
+
+  .cardGeneral {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section:after {
+    top: 166px;
+    z-index: 0;
+  }
+
+  .promo {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .product2 {
+    width: 100%;
+  }
+
+  .product2:before {
+    display: none;
+  }
+}

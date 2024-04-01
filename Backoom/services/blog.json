@@ -1,0 +1,37 @@
+{
+  "que_es_tornillo": {
+    "title": "¿Qué es un tornillo?",
+    "img": "/images/blog/portada-single.png",
+
+    "description": "Los tornillos son piezas metálicas que sirven para unir dos o más objetos. Se componen de un cuerpo alargado en forma de rosca que se introduce en la superficie a fijar y de una cabeza que puede tener diferentes formas y ranuras.",
+    "content": {
+      "description": [
+        {
+          "shading": "Diámetro exterior del cuerpo:",
+          "item": "en el sistema métrico se expresa en mm y en el sistema inglés en fracciones de pulgada."
+        },
+        {
+          "shading": "La longitud del cuerpo:",
+          "item": "en el sistema métrico se expresa en mm y en el sistema inglés en fracciones de pulgada"
+        },
+        {
+          "shading": "Tipo de rosca:",
+          "item": "Whitworth (pulgadas), métrica, trapecial, redonda, en diente de sierra, eléctrica, etc. Las roscas pueden ser exteriores o machos (tornillos) o bien interiores o hembras (tuercas), debiendo ser sus magnitudes coherentes para que ambos elementos puedan enroscarse."
+        },
+        {
+          "shading": "Paso de la rosca:",
+          "item": "Distancia que hay entre dos crestas sucesivas, en el sistema métrico se expresa en mm y en el sistema inglés por el número de hilos que hay en una pulgada."
+        },
+        {
+          "shading": "Sentido de la hélice de la rosca:",
+          "item": "a derechas o a izquierdas. Prácticamente casi toda la tornillería tiene rosca a derechas, pero algunos ejes de máquinas tienen alguna vez rosca a izquierda. Los tornillos de las ruedas de los vehículos industriales tienen roscas de diferente sentido en los tornillos de las ruedas de la derecha (a derechas) que en los de la izquierda (a izquierdas). Esto se debe a que de esta forma los tornillos tienden a apretarse cuando las ruedas giran en el sentido de la marcha. Asimismo, la combinación de roscas a derechas y a izquierdas es utilizada en tensores roscados."
+        },
+        {
+          "shading": "Tipo de cabeza:",
+          "item": "en estrella o phillips, bristol, de pala y algunos otros especiales."
+        }
+      ]
+    },
+    "link": "blog/single"
+  }
+}

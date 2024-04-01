@@ -1,0 +1,22 @@
+.background{
+    background-color: #FBEFEF;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.background h3{
+    color: black;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.testiomonials{
+    display: flex;
+    justify-content: center;
+}

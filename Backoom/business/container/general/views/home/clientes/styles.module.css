@@ -1,0 +1,36 @@
+.section {
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+
+}
+
+.section .title {
+    text-align: center;
+}
+
+.section .title h2 {
+    color: #231F20;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.general_cliente {
+    width: 850px;
+}
+
+@media (max-width: 991px) {
+    .general_cliente {
+        width: 450px;
+    }
+}
+
+@media (max-width: 499px) {
+    .general_cliente {
+        width: 180px;
+    }
+}

@@ -1,0 +1,106 @@
+/* SECTION 1 */
+.background{
+    margin-top: 130px;
+    background-image: url("/images/content/social/component1/web_laurafoto.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: white;
+}
+
+.vertical_cartel img{
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.parrafs{
+    padding: 20px;
+}
+
+.title{
+    margin-top: 220px;
+}
+
+.title h1 {
+    font-size: 20.5px;
+}
+
+.description p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.btn {
+    padding-top: 20px;
+}
+
+.btn button{
+    font-size: 12px;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    border: 1px solid;
+    border-color: #FF4632;
+    border-radius: 30px;
+    background-size: 100% auto;
+    background-color: transparent;
+    color: #FFFF;
+    transition: 1s ease-in-out;
+}
+
+.btn button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #FF4632;
+    color: #FFFF;
+    border-color: #FFFF;
+}
+
+/* RESPONSIVE */
+@media (max-width: 890px) {
+    .vertical_cartel img{
+        height: auto;
+        width: 125px !important;
+    }
+    .parrafs{
+        margin-top: -100px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .vertical_cartel img{
+        height: 350px !important;
+    }
+}
+
+@media (max-width: 1250px) {
+    .vertical_cartel img{
+        margin-top: 120px;
+        height: 400px;
+        width: auto;
+    }
+}
+
+@media (max-width: 765px) {
+    .background{
+        height: 550px;
+    }
+
+    .title{
+        margin-top: 160px;
+    }
+
+    .vertical_cartel{
+        display: flex;
+        justify-content: center;
+    }
+    .vertical_cartel img{
+        transform:rotate(-90deg);
+        -ms-transform:rotate(-90deg); /* IE 9 */
+        -webkit-transform:rotate(-90deg);
+        margin-top: -50px;
+        padding: 0px;
+        height: 320px !important;
+        width: 100px;
+    }
+}

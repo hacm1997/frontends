@@ -1,0 +1,39 @@
+{
+  "cancel": "Click para cancelar reserva",
+  "title": {
+    "pt1": "Encuentra",
+    "pt2": "el",
+    "pt3": "mejor",
+    "pt4": "lugar",
+    "pt5": "para tí"
+  },
+  "subtitle": "Apartamentos disponibles",
+  "filter": {
+    "type_text": "Tipo de viaje",
+    "type1": "Trabajo",
+    "type2": "Vacaciones",
+    "adults": "Personas",
+    "kids": "Niños",
+    "button": "Buscar"
+  },
+  "filter2": {
+    "title": "Filtros",
+    "description": "Encuentra tu estadía perfecta",
+    "beds": "Camas",
+    "bedrooms": "Alcobas",
+    "range": "Rango de precio",
+    "subtitle":"Filtrar por edificio",
+    "dropdown": "Todos"
+  },
+  "aptos": {
+    "max": "Máximo",
+    "min": "Mínimo",
+    "people": "Personas",
+    "adults": "Adultos",
+    "kids": "Niños",
+    "bedroom": "Alcobas",
+    "double_bed": "Camas",
+    "bathrooms": "Baños",
+    "night": "Noche"
+  }
+}

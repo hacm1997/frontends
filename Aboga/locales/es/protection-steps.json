@@ -1,0 +1,20 @@
+{
+    "title": "La protección de sus derechos en 3 pasos:",
+    "steps": [
+        {
+            "id": 1,
+            "title": "Llene nuestro formulario de contacto. ",
+            "content": "Para recibir atención personalizada, completa nuestro formulario con tus datos personales. Uno de nuestros experimentados abogados se pondrá en contacto contigo en breve para ofrecerte la orientación jurídica que necesitas.| Llena el formulario ahora y deja que nuestro equipo legal se encargue de tu caso. ¡Estamos aquí para ayudarte!"
+        },
+        {
+            "id": 2,
+            "title": "Recibe una cotización.",
+            "content": "Después de escuchar detalladamente tu caso, te enviaremos una cotización detallada de los honorarios por la prestación de nuestros servicios jurídicos, junto con opciones de pago.| No esperes más, comparte tu caso con nosotros y comencemos juntos el camino hacia la resolución. ¡Estamos aquí para ofrecerte el respaldo legal que mereces!"
+        },
+        {
+            "id": 3,
+            "title": "Firma contrato y poder.",
+            "content": "Una vez aceptes nuestra propuesta de honorarios, te enviaremos de inmediato un contrato de prestación de servicios y un poder especial. Esto nos permitirá iniciar el trabajo en tu caso de inmediato.| Estamos aquí para simplificar el proceso legal y brindarte la asistencia que necesitas. ¡Acepta nuestra propuesta y comencemos a trabajar juntos en la resolución de tu caso!"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+  "headData": {
+    "keywords": "ferreteria, tornillo, tornilleria, guayas, cadenas, cables, Varillas, Tuercas, Acero, Inoxidable, Arandelas, Consumibles, Tornillería",
+    "description": "Somos una empresa especializada en la provisión de tornillería de alta calidad con certificaciones internacionales. Ofrecemos un alto stock en rotación para ayudar a cumplir con tus objetivos a tiempo."
+  },
+  "navbar": {
+    "logo": {
+      "srcImg": "/images/logos/logo_backoom_white.png",
+      "alt": "backoom-logo",
+      "url": "/"
+    },
+    "home": {
+      "name": "Inicio",
+      "url": "/"
+    },
+    "productos": {
+      "name": "Productos",
+      "url": "/productos",
+      "types": {
+        "abrazaderas": "/productos/tipo?tipe=abrazaderas",
+        "clavos": "/productos/tipo?tipe=clavos",
+        "tornillos": "/productos/tipo?tipe=tornillos",
+        "tuercas": "/productos/tipo?tipe=tuercas",
+        "arandelas": "/productos/tipo?tipe=arandelas",
+        "manual": "/productos/tipo?tipe=manual",
+        "varillas": "/productos/tipo?tipe=varillas",
+        "bristol": "/productos/tipo?tipe=bristol",
+        "aceroinoxidable": "/productos/tipo?tipe=aceroinoxidable",
+        "anclajes": "/productos/tipo?tipe=anclajes",
+        "metalicos": "/productos/tipo?tipe=metalicos",
+        "guasas": "/productos/tipo?tipe=guasas",
+        "tornilleria": "/productos/tipo?tipe=tornilleria"
+      }
+    },
+    "cotizar": {
+      "name": "Cotizar",
+      "url": "/cotizar"
+    },
+    "blog": {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    "bookingBtn": {
+      "name": "Agendar cita",
+      "url": "https://api.whatsapp.com/send?phone=573156059925&text=%C2%A1Hola%20Backoom!%F0%9F%94%A9%20Vengo%20tu%20sitio%20web,%20quisiera%20obtener%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20productos.%20"
+    }
+  },
+  "footer": {
+    "aboutUs": {
+      "aboutUsTitle": "Sobre nosotros",
+      "aboutUsContent": "Somos una empresa especializada en la provisión de tornillería de alta calidad con certificaciones internacionales. Ofrecemos un alto stock en rotación para ayudar a cumplir con tus objetivos a tiempo."
+    },
+    "contact": {
+      "iconTitle": "contacto-backoom",
+      "contactTitle": "Contacto",
+      "contactNumber": "(+57) 315 6059925"
+    },
+    "address": {
+      "iconTitle": "direccion-backoom",
+      "street": "Dg. 21 #52-147, Alto Bosque",
+      "city": "Cartagena, Bolívar, Colombia"
+    },
+    "schedule": {
+      "iconTitle": "horario-backoom",
+      "scheduleTitle": "Horario de atención",
+      "hours": "Lunes a Viernes 7:45 am a 5:15 pm",
+      "weekendHours": "Sabado 7:45 am a 1:00 pm"
+    },
+    "socialMedia": {
+      "socialMediaTitle": "Redes sociales",
+      "urls": {
+        "instagram": {
+          "title": "backoom-instagram",
+          "url": "https://www.instagram.com/backoomsas/"
+        },
+        "facebook": {
+          "title": "backoom-facebook",
+          "url": "https://www.facebook.com/backoom.sas.5"
+        },
+        "linkedin": {
+          "title": "backoom-linkedin",
+          "url": "https://www.linkedin.com/company/backoomsas/"
+        }
+      }
+    }
+  },
+  "simpleUrlWhatsapp": "https://api.whatsapp.com/send?phone=573156059925&text=%C2%A1Hola%20Backoom!%20%F0%9F%92%9B%F0%9F%94%A9%20Estoy%20interesad@%20en%20cotizar%20con%20ustedes"
+}

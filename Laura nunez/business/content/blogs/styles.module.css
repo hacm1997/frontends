@@ -1,0 +1,115 @@
+.posts{
+    padding-top: 210px;
+    height: auto;
+    /* image background */
+    background-image: url("/images/content/blogs/back-grid.png");
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.mySwiper{
+    width: 900px;
+}
+
+.dates{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FF4632;
+}
+
+.banner img{
+    width: 430px;
+    margin-top: -10px;
+}
+
+.titles ul{
+    list-style: none;
+}
+
+.titles li{
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.titles ul li::before{
+    content: "\2022";
+    color: #FF4632;
+    font-weight: bold;
+    font-size: 35px;
+    display: inline-block;
+    width: 25px;
+    margin-left: -10px;
+    vertical-align: -8%;
+}
+
+.description{
+    margin-top: -35px;
+    padding: 20px;
+}
+
+.description p{
+    color: #1B505E;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.btn{
+    margin-top: -25px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.btn a{
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    background-size: 100% auto;
+    margin-right: 120px;
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid #FF4632;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.btn a:hover {
+    transition: 0.5s ease-in-out;
+    background: #FF4632;
+    color: white;
+}
+
+.btn a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.btn a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.numbers{
+    font-size: 50px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 765px) {
+    .mySwiper{
+        width: 550px;
+    }
+}
+@media (max-width: 500px) {
+    .mySwiper{
+        width: 350px;
+    }
+}

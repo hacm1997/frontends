@@ -1,0 +1,39 @@
+.back{
+  background-image: linear-gradient(180deg, #000 40%, rgba(0, 0, 0, 0.8) 100%);
+}
+.title {
+  background: linear-gradient(104deg, #FD8E56 23%, #6F00F9 65.09%, #FD8E56 75.11%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-family: Poppins, sans-serif;
+}
+.titleFooter {
+  text-align: center;
+  background: linear-gradient(102deg, #FD8E56 23.42%, #6F00F9 54.48%, #DD4D30 78.56%, #EF5A0F 89.82%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  align-self: center;
+  font-family: Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+    line-height: 70px;
+}
+.containerBTn {
+  animation: bounce 2s linear infinite;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 20px;
+  background: linear-gradient(95deg, #EF5A0F 47.64%, #6F00F9 108.52%);
+  border: 1px solid #707070;
+  font-family: Poppins, sans-serif;
+}
+@keyframes bounce {
+  0%, 25%, 50%, 75%, 90%, 100%{
+    transform: translateX(0);
+  }
+  15%, 40%{
+    transform: translateX(-10px);
+  }
+}

@@ -1,0 +1,74 @@
+.container{
+    background-image: url("/images/landing/menu1v1.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.content{
+    background-image: url("/images/landing/menu1-1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.menuCard{
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    width: 110px;
+    height: 110px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.menuCard p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1130px) {
+    .menuCard{
+        left: 32%;
+    }
+}
+@media (max-width: 975px) {
+    .menuCard{
+        left: 28%;
+    }
+}
+@media (max-width: 750px) {
+    .menuCard{
+        left: 25%;
+    }
+}
+@media (max-width: 630px) {
+    .menuCard{
+        left: 22%;
+    }
+}
+@media (max-width: 620px) {
+    .menuCard{
+        top: 40%;
+        left: 20%;
+    }
+}
+@media (max-width: 500px) {
+    .menuCard{
+        left: 15%;
+    }
+}

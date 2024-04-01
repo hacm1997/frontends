@@ -1,0 +1,32 @@
+.video{
+    position: relative;
+    background-image: url("/images/administracion/administracion.png");
+    background-size: cover;
+    background-position: center;
+    height: 489px;
+    /*cursor: pointer;*/
+    overflow: hidden;
+}
+
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgb(253, 253, 253);
+        border-radius: 50%;
+    }
+    90% {
+        box-shadow: 0 0 0 14px rgba(255, 255, 255, 0.18);
+        border-radius: 100%;
+
+    }
+}
+
+@media (max-width: 720px) {
+    .video{
+        background-size: 100% 40%;
+        background-repeat: no-repeat;
+        
+        height: 450px;
+    }
+}

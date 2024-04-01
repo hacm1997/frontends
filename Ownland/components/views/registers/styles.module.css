@@ -1,0 +1,147 @@
+.content{
+  display: flex;
+  justify-content: center;
+  
+}
+.form{
+  width: 500px;
+}
+
+.logo{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.auth_login{
+  padding-top: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+.btn  {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  border-radius: 10px;
+  
+}
+
+.btn button{
+  background-color: #4900FC;
+  border: solid 1px #C1F20F;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+/*TABLE PAGINATION*/
+.paginationsActive {
+  background-color: #4900FC;
+  color: white;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.paginationsActive a {
+  font-size: 14px;
+}
+
+.paginationsBtns {
+  list-style: none;
+  display: flex;
+  border: 50px;
+  justify-content: space-between;
+}
+
+.paginationsBtns a {
+  padding: 6px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.paginationsBtns {
+  padding: 5px;
+  margin: 8px;
+  color: black;
+  cursor: pointer;
+}
+
+.prevBtns, .nextBtns{
+  display: none;
+}
+
+.paginationControl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.info_table{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.data_info h5{
+  margin-top: 30px;
+  color: #032f48;
+  text-align: center;
+  font-weight: 600;
+}
+
+.data_info p{
+  margin-top: 10px;
+  color: #032f48;
+  text-align: center;
+  font-weight: 600;
+}
+
+.data_info select{
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.data_info button{
+  margin-left: 20px;
+  background-color: #4900FC;
+  color: #FFFFFF;
+  font-weight: 600;
+  width: 150px;
+  transition: 0.8s;
+  border-radius: 10px;
+  height: 40px;   
+}
+
+.data_info button:hover{
+  background-color: #032f48;
+  transition: 0.5s;
+}
+
+.table_content{
+  color: #032f48;
+  margin-top: 30px;
+  width: 950px;
+  padding-left: 50px;
+}
+
+.table_content tr{
+  width: 200px;
+  border-bottom: 2px solid #C1F20F;
+ 
+  
+  height: 50px;
+  
+}
+
+
+
+.table_content .id{
+  width: 50px;
+  
+}

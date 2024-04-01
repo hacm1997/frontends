@@ -1,0 +1,53 @@
+{
+  "pageTitle": "Comprar apartamento",
+  "banner": [
+    {
+      "img": "images/administracion/banner/banner-1.webp",
+      "title": "Banner 1"
+    },
+    {
+      "img": "images/administracion/banner/banner-2.webp",
+      "title": "Banner 2"
+    },
+    {
+      "img": "images/administracion/banner/banner-3.webp",
+      "title": "Banner 3"
+    }
+  ],
+  "title": {
+    "pt1": "Tu nuevo",
+    "pt2": "apartamento",
+    "pt3": "te espera",
+    "soon": "Proximamente",
+    "text": "¿Buscas el apartamento perfecto? No te pierdas nuestras actualizaciones. Estamos dedicados a ofrecer servicios excepcionales y opciones de vivienda que se adapten a tus necesidades. Contáctanos a través de WhatsApp para descubrir las últimas novedades y  recibir asesoramiento personalizado ."
+  },
+  "subtitle": "Apartamentos disponibles",
+  "filter": {
+    "type_text": "Tipo de viaje",
+    "type1": "Trabajo",
+    "type2": "Vacaciones",
+    "adults": "Adultos",
+    "kids": "Niños",
+    "button": "Buscar"
+  },
+  "filter2": {
+    "title": "Filtrar",
+    "price": "Por precio",
+    "description": "Precio por noche",
+    "beds": "Camas",
+    "bedrooms": "Alcobas"
+  },
+  "aptos": {
+    "max": "Máximo",
+    "min": "Mínimo",
+    "people": "Personas",
+    "adults": "Adultos",
+    "kids": "Niños",
+    "bedroom": "Alcobas",
+    "sofa_bed": "Sofá cama",
+    "double_bed": "Cama doble",
+    "bathrooms": "Baños",
+    "night": "Noche",
+    "button": "Contactar"
+  }
+}

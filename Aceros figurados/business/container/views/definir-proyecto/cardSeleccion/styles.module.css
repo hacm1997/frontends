@@ -1,0 +1,100 @@
+.cardSelect {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card_pilotaje {
+    position: relative;
+    width: 250px;
+    height: 140px;
+    background-image: linear-gradient(rgba(52, 52, 52, 0.58), rgba(56, 56, 56, 0.63)), url("/images/seleccion-pilotaje.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card_pilotaje_active {
+    width: 250px;
+    height: 140px;
+    background-image: linear-gradient(rgba(246, 246, 246, 0.58), rgba(255, 255, 255, 0.63)), url("/images/seleccion-pilotaje.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card_pantalla {
+    position: relative;
+    width: 250px;
+    height: 140px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.5)), url("/images/seleccion-pantalla-barrete.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card_pantalla_active {
+
+    width: 250px;
+    height: 140px;
+    background-image: linear-gradient(rgba(246, 246, 246, 0.58), rgba(255, 255, 255, 0.63)), url("/images/seleccion-pantalla-barrete.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.card_pilotaje:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    width: 100%;
+    height: 10px;
+    background-color: #F2AC38;
+}
+
+.card_pantalla:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    width: 100%;
+    height: 10px;
+    background-color: #F2AC38;
+}
+
+.card_pantalla_active h2 {
+    color: #000000;
+    opacity: 0.4;
+}
+
+.card_pilotaje_active h2 {
+    color: #000000;
+    opacity: 0.4;
+}
+
+.card_pantalla h2 {
+    font-size: 22px;
+    color: #f2ac38;
+}
+
+.card_pilotaje h2 {
+    font-size: 22px;
+    color: #f2ac38;
+}
+
+@media (max-width: 500px) {
+    .cardSelect {
+        flex-direction: column;
+        align-items: center;
+    }
+}

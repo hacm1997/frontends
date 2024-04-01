@@ -1,0 +1,156 @@
+.form {
+    max-width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.general {
+    width: 100%;
+}
+
+.general input{
+    border: 3px solid #FF4632;
+}
+.general textarea{
+    border: 3px solid #FF4632;
+}
+.general textarea::placeholder{
+    color: #FF4632;
+}
+
+.loc_map textarea{
+    width: 80%;
+}
+
+.selects select{
+    width: 220px;
+    height: 50px;
+    border: 3px solid #F672A1;
+    border-radius: 20px;
+    padding-left: 10px;
+    color: #FF4632;
+}
+
+.selects option{
+
+}
+
+.header_body .close{
+    display: flex;
+    justify-content: right;
+}
+.header_body .close a{
+    margin-top: -10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.form button {
+    width: 100%;
+    height: 45px;
+    background-color: #FF4632;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #F672A1;
+}
+
+.btn_close button {
+    width: 100%;
+    height: 45px;
+    border: 1px solid;
+    border-color: #FF4632;
+    background-color: #FFF;
+    color: #FF4632;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_close button:hover {
+    background-color: #FFF;
+}
+
+.moreBtn button{
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #F672A1;
+    background-color: #FF4632;
+    transition: 1s;
+}
+.moreBtn button:hover{
+    background-color: #F672A1;
+    border-color: #FF4632;
+    transition: 1s;
+}
+
+.times input{
+
+    height: 50px;
+    color: #000000;
+    border-radius: 20px;
+    border: 3px solid #FF4632;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+}
+.times input::placeholder{
+    color: #000000;
+}
+.times input:hover{
+    background-color: #F672A1;
+}
+
+/* TEXTAREA */
+.text_description textarea{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 10px;
+    color: #000000;
+    width: 96%;
+}
+.text_description textarea::placeholder{
+    color: #000000;
+}
+
+.btn_addDate button{
+    height: 50px;
+    width: 100px;
+}
+
+.selects select{
+    background-color: #FFFFFF;
+    border-color: #FF4632;
+    color: black;
+}
+
+.datesPosition{
+    margin-top: -40px;
+}
+
+.grid_container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid_item {
+    background-color: #F672A1;
+    color: #FFFFFF;
+    margin-top: -10px;
+    padding: 10px;
+    height: 45px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+

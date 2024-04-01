@@ -1,0 +1,20 @@
+{
+"contactForm": {
+    "contactTitle": "Cotiza al instante",
+    "contactContent": "Uno de nuestros asesores se pondrá en contacto contigo",
+    "inputPerson": "Persona natural",
+    "inputName": "Nombre y apellido",
+    "contactIdType": {
+      "cedulaType": "CC",
+      "nitType": "NIT"
+    },
+    "idInputNumber":"Numero de documento",
+    "inputEmail": "E-mail",
+    "inputTelCel": "TelCel",
+    "contactBtn": {
+      "btnTitle": "¡Recibe tu cotización ya!",
+      "btnURL": "https://api.whatsapp.com/send?phone=573156059925&text=%C2%A1Hola%20Backoom!%20%F0%9F%92%9B%F0%9F%94%A9%20Estoy%20interesad@%20en%20cotizar%20con%20ustedes"
+    }
+  }
+
+}

@@ -1,0 +1,66 @@
+.general {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4632;
+}
+
+
+.card form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    gap: 15px;
+    width: 400px;
+    height: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px 0px rgb(255, 254, 254);
+}
+
+.card input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #FF4632;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FF4632;
+    transition: all 0.3s ease;
+}
+
+.card input::placeholder {
+    color: #000000;
+    font-size: 14px;
+}
+
+.card input:focus {
+    outline: none;
+    border: 1px solid #FF4632;
+}
+
+.card button {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FF4632;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #f56354;
+    box-shadow: 0 0 20px 0px rgb(227, 20, 46);
+    transform: translateY(-5px);
+}

@@ -1,0 +1,98 @@
+.banner img{
+    width: 430px;
+}
+
+.mySwiper{
+    width: 92%;
+}
+
+.titles ul{
+    list-style: none;
+}
+
+.titles li{
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.titles ul li::before{
+    content: "\2022";
+    color: #FF4632;
+    font-weight: bold;
+    font-size: 35px;
+    display: inline-block;
+    width: 25px;
+    margin-left: -10px;
+    vertical-align: -8%;
+}
+
+.titles a{
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    background-size: 100% auto;
+    margin-right: 120px;
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid #FF4632;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.titles a:hover {
+    transition: 0.5s ease-in-out;
+    background: #FF4632;
+    color: white;
+}
+
+.titles a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.titles a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.banner img{
+    border: 10px solid;
+    border-color: #FFFFFF;
+}
+
+.btn{
+    margin-top: 5px;
+}
+
+.btn a{
+    text-decoration: none;
+    padding-top: 7px;
+    padding-left: 27px;
+}
+
+.btn a{
+    font-size: 12px;
+    font-weight: bold;
+    height: 32px;
+    width: 120px;
+    border: 1px solid;
+    border-color: #FF4632;
+    border-radius: 30px;
+    background-size: 100% auto;
+    background-color: white;
+    color: #000000;
+    transition: 1s ease-in-out;
+}
+
+.btn a:hover{
+    transition: 0.5s ease-in-out;
+    background: #FF4632;
+    color: white;
+}

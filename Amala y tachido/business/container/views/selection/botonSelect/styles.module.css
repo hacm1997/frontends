@@ -1,0 +1,99 @@
+.boton {
+  position: relative;
+  width: 400px;
+  height: 120px;
+  border-radius: 100px;
+  background-image: url("/images/fondos/fondo-boton.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid 3px #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 20px rgb(0 0 0 / 27%);
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  box-shadow: 0 0 20px 9px #36363659;
+  cursor: pointer;
+  z-index: 1;
+  animation: swigh 1s infinite;
+}
+
+.circle:hover {
+  box-shadow: 0 0 20px 9px rgba(54, 54, 54, 0.53);
+}
+
+@keyframes swigh {
+  0% {}
+
+  50% {
+    width: 110px;
+    height: 110px;
+  }
+
+  100% {}
+}
+
+
+.left {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: #FFFFFF;
+  left: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.right {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: #FFFFFF;
+  right: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+
+}
+
+@media (width <=950px) {
+  @keyframes swighM {
+    0% {}
+
+    50% {
+      width: 50px;
+      height: 50px;
+    }
+
+    100% {}
+  }
+
+  .boton {
+    position: relative;
+    width: 80px;
+    height: 160px;
+    background-image: url("/images/fondos/fondo-boton2.webp");
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px;
+    animation: swighM 1s infinite;
+  }
+}

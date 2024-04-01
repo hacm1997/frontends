@@ -1,0 +1,4 @@
+ownlandco.com:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    domain:  [ "ownlandco.com" ]

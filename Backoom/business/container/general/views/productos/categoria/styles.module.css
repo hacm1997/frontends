@@ -1,0 +1,70 @@
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.general {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.title i {
+    font-size: 40px;
+    color: #FBAF19;
+    font-weight: bold;
+}
+
+.title h2 {
+    font-size: 28px;
+    color: #000000;
+    font-weight: 500;
+
+}
+
+.general_categoria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.apoyoGrafico {
+    background-image: url("/images/tramado.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    margin-top: -160px;
+}
+
+@media (max-width: 1024px) {
+    .general_categoria {
+        display: flex;
+
+    }
+    .general {
+        align-items: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .general_categoria {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

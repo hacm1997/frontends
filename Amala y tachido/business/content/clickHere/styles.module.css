@@ -1,0 +1,61 @@
+.whatsapp{
+    z-index: 99999;
+    position: fixed;
+    background-color: #006847;
+    border-radius: 90%;
+    width: 95px;
+    right: 60px;
+    bottom: 115px;
+    animation-name: pulse;
+    transition: 1s;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+.whatsapp:hover{
+    transform: translateY(-10px);
+}
+.whatsapp i{
+    font-size: 36px;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    animation: hereClick;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+.here{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+.here p{
+    font-size: 14px;
+    margin-top: -5px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@keyframes hereClick {
+    0% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #006847;
+        border-radius: 50%;
+    }
+    80% {
+        box-shadow: 0 0 0 14px rgba(255, 255, 255, 0.18);
+        border-radius: 100%;
+    }
+}

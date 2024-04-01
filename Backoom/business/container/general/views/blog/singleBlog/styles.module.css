@@ -1,0 +1,36 @@
+.section{
+    max-width: 1000px;
+    width: 100%;
+    padding: 60px 40px;
+    margin: 0 auto;
+}
+.title h1 i{
+    font-size: 18px;
+    color: #f2ac38;
+
+}
+.title{
+    padding: 20px 0;
+}
+
+.title h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.multimedia img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.content{
+    margin-top: 40px;
+}
+
+.content p strong{
+    color: #f2ac38;
+    font-weight: bold;
+}

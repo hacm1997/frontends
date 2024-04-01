@@ -1,0 +1,41 @@
+.menuLeft{
+    position: relative;
+    background-color: #111111;
+    width: 50px;
+    min-height: 100vh;
+    height: 100%;
+    transition: .5s;
+}
+
+.menuActive{
+    position: relative;
+    background-color: #111111;
+    min-height: 100vh;
+    height: 100%;
+    width: 300px;
+    transition: .5s;
+}
+
+.logo span{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.boton{
+    position: absolute;
+    right: -20px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.boton i{
+    color: #ffffff;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #006847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

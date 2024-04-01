@@ -1,0 +1,40 @@
+.section {
+    background-image: url("/images/fondo-acero-figurado.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 220px 50px 80px 40px;
+}
+
+.card_general {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.title {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    min-width: 230px;
+    font-size: 22px;
+
+}
+
+.hr {
+    border: solid 2px #F2AC38;
+    width: 100%;
+}
+
+@media screen {
+    
+}

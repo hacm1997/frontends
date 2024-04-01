@@ -1,0 +1,270 @@
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/tachido/fondo/fondo-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  padding: 80px 0 80px 0;
+}
+
+.footer2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/amala/fondo/fondo-footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  padding: 80px 0 80px 0;
+}
+
+.footer:before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 360px;
+  height: 400px;
+  background-image: url("/images/tachido/apoyoGrafico/aji.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: flotando 10s infinite;
+}
+
+.footer2:before {
+  content: "";
+  position: absolute;
+  top: 190px;
+  left: -60px;
+  width: 400px;
+  height: 300px;
+  background-image: url("/images/amala/apoyoGrafico/plant.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: flotando 10s infinite;
+}
+
+.general {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  column-gap: 4rem;
+  justify-content: space-around;
+  padding: 0 6rem;
+  z-index: 9;
+}
+
+.general h2 {
+  font-size: 30px;
+  color: #ce1126;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.general h2 {
+  font-size: 30px;
+  color: #282828;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.general span {
+  font-size: 17px;
+  color: #006847;
+  margin: 0;
+}
+
+.infoUbi {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.itenUbi {
+  display: flex;
+  gap: 20px;
+}
+
+.itenUbi2 {
+  display: flex;
+  gap: 20px;
+}
+
+.itenUbi .socialNetworks {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  row-gap: 32px;
+  align-items: start;
+  width: 100%;
+}
+
+.itenUbi2 .socialNetworks {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  row-gap: 32px;
+  align-items: start;
+  width: 100%;
+}
+
+.itenUbi i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #006847;
+  font-size: 25px;
+  border-radius: 100%;
+  color: #ffffff;
+  margin: 0;
+  padding: 10px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.itenUbi2 i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #282828;
+  font-size: 25px;
+  border-radius: 100%;
+  color: #F9D761;
+  margin: 0;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+
+.itenUbi i:hover {
+  background-color: #ce1126;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.itenUbi2 i:hover {
+  background-color: #F9D761;
+  color: #282828;
+  border: 1px solid #282828;
+}
+
+.social {
+  display: flex;
+  gap: 15px;
+  z-index: 999;
+}
+
+.social2 {
+  display: flex;
+  gap: 15px;
+  z-index: 999;
+}
+
+.social i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #006847;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+.social2 i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282828;
+  color: #F9D761;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+.social i:hover {
+  background-color: #ce1126;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.social2 i:hover {
+  background-color: #F9D761;
+  color: #282828;
+  border: 1px solid #282828;
+}
+
+.next_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (max-width: 1022px) {
+  .general {
+    flex-wrap: wrap;
+  }
+
+  .content_1 {
+    width: 600px
+  }
+}
+
+
+@media (max-width: 810px) {
+  .next_footer {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .general {
+    padding: 0 32px;
+  }
+
+  .itenUbi .socialNetworks {
+    display: flex;
+    row-gap: 48px;
+    column-gap: 16px;
+  }
+
+  .itenUbi2 .socialNetworks {
+    display: flex;
+    column-gap: 16px;
+    row-gap: 48px;
+  }
+
+  .content_1 {
+    width: 100%;
+  }
+
+  .footer2:before {
+    top: 300px;
+  }
+}

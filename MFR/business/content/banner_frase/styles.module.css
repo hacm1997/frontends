@@ -1,0 +1,66 @@
+.general {
+    padding: 111px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.general h1{
+    color: #100146;
+    font-weight: 500;
+}
+.general h1 span{
+    color: #E460FF;
+}
+
+
+
+
+.swiper{
+    z-index: 0 !important;
+}
+
+.section{
+    background-size: 100% 100%;
+    background-position: bottom center;
+    height: 80vh;
+}
+
+@media (max-width: 1120px) {
+    .section{
+        
+        background-repeat: no-repeat;
+        background-position: 20% 15%;
+    }
+    
+}
+@media (max-width: 850px) {
+    .section{
+      
+      height: 30vh;
+      background-size: cover;
+      background-position: 0%;
+      margin-bottom: 100px;
+      padding-top: 400px;
+    }
+    
+}
+
+@media (max-width: 760px) {
+    .section{
+    
+
+      background-size: 100% 50%;
+      background-position: 0%;
+      margin-bottom: 100px;
+    }
+    
+}
+@media (max-width: 450px) {
+    .general h1{
+        text-align: center;
+        padding: 10px;
+    }
+    
+}

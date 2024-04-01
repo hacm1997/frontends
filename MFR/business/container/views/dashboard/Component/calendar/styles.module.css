@@ -1,0 +1,17 @@
+.content{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+.block_date{
+    background-color: #f1a1a1;
+    pointer-events: none;
+    color: #ffffff;
+    cursor: not-allowed !important;
+}
+.iframe_google{
+    width: 100%;
+}
+.iframe_google iframe{
+    width: 100%;
+    height: 80vh;
+}

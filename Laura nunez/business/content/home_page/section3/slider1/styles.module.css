@@ -1,0 +1,19 @@
+
+/*RESPONSIVE*/
+@media (max-width: 950px) {
+    .styleSli{
+        width: 98% !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .styleSli{
+        width: 100% !important;
+        height: 400px !important;
+        margin-left: 40px;
+    }
+    .slider{
+        margin-top: -80px;
+        padding: 70px !important;
+    }
+}
